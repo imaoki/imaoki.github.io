@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<!-- © 2019 imaoki | MIT License | https://github.com/imaoki -->
+<html b:version='2' expr:dir='data:blog.languageDirection' lang='ja' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+&lt;!&#45;&#45;<head>&#45;&#45;&gt;
+&lt;head&gt;
+
+<meta charset='utf-8'/>
+<meta http-equiv='x-ua-compatible' content='ie=edge'/>
+<meta http-equiv='content-language' content='ja'/>
+<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0'/>
+<meta name='theme-color' content='#171717'/>
+
+<meta name='google-site-verification' content='1uNMay7VKqQT_SGiTSgkapcsulrGzcFROcBS2aSWFL0'/>
+
+<title><data:blog.pageType/>@<data:blog.title/></title>
+<meta name='description' content='Blogger Template Layouts Data Tags'/>
+
+<link rel='canonical' expr:href='data:blog.canonicalUrl'/>
+<link rel='icon' type='image/x-icon' expr:href='data:blog.blogspotFaviconUrl'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/font.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/normalize.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/versatile.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/versatile.content.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/toc.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/pagetop.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/highlight.min.css'/>
+
+&lt;style&gt;&lt;!--/*<b:skin><![CDATA[*/]]></b:skin>
+&lt;style class='remove'&gt;&lt;!&#45;&#45;</head>&#45;&#45;&gt;&lt;/style&gt;
+&lt;/head&gt;
+
+<body id='body'>
+
+<header id='header'>
+  <h1><a expr:href='data:blog.homepageUrl'><data:blog.title/></a></h1>
+</header>
+
+<main id='main'>
+  <section>
+    <article class='content'>
+      <div class='body'>
+        <div id='toc' class='js hidden'></div>
+
+        <section>
+        <h2 title=''>Global</h2>
+        <div id='global'>
+          <dl>
+            <dt>blog</dt>
+            <dd>
+              <dl>
+                <dt>adsenseClientId</dt>
+                <dd><code><data:blog.adsenseClientId/></code></dd>
+                <dt>adultContent</dt>
+                <dd><code><data:blog.adultContent/></code></dd>
+                <dt>analyticsAccountNumber</dt>
+                <dd><code><data:blog.analyticsAccountNumber/></code></dd>
+                <dt>blogId</dt>
+                <dd><code><data:blog.blogId/></code></dd>
+                <dt>bloggerUrl</dt>
+                <dd><a expr:href='data:blog.bloggerUrl'><code><data:blog.bloggerUrl/></code></a></dd>
+                <dt>blogspotFaviconUrl</dt>
+                <dd><a expr:href='data:blog.blogspotFaviconUrl'><code><data:blog.blogspotFaviconUrl/></code></a></dd>
+                <dt>canonicalHomepageUrl</dt>
+                <dd><a expr:href='data:blog.canonicalHomepageUrl'><code><data:blog.canonicalHomepageUrl/></code></a></dd>
+                <dt>canonicalUrl</dt>
+                <dd><a expr:href='data:blog.canonicalUrl'><code><data:blog.canonicalUrl/></code></a></dd>
+                <dt>disableAdSenseWidget</dt>
+                <dd><code><data:blog.disableAdSenseWidget/></code></dd>
+                <dt>dynamicViewsCommentsSrc</dt>
+                <dd><code><data:blog.dynamicViewsCommentsSrc/></code></dd>
+                <dt>dynamicViewsScriptSrc</dt>
+                <dd><code><data:blog.dynamicViewsScriptSrc/></code></dd>
+                <dt>enabledCommentProfileImages</dt>
+                <dd><code><data:blog.enabledCommentProfileImages/></code></dd>
+                <dt>encoding</dt>
+                <dd><code><data:blog.encoding/></code></dd>
+                <dt>feedLinks</dt>
+                <dd><code><data:blog.feedLinks/></code></dd>
+                <dt>googleProfileUrl</dt>
+                <dd><a expr:href='data:blog.googleProfileUrl'><code><data:blog.googleProfileUrl/></code></a></dd>
+                <dt>homepageUrl</dt>
+                <dd><a expr:href='data:blog.homepageUrl'><code><data:blog.homepageUrl/></code></a></dd>
+                <dt>ieCssRetrofitLinks</dt>
+                <dd><code><data:blog.ieCssRetrofitLinks/></code></dd>
+                <dt>imageSrcTag</dt>
+                <dd><code><data:blog.imageSrcTag/></code></dd>
+                <dt>isMobile</dt>
+                <dd><code><data:blog.isMobile/></code></dd>
+                <dt>isMobileRequest</dt>
+                <dd><code><data:blog.isMobileRequest/></code></dd>
+                <dt>isPrivate</dt>
+                <dd><code><data:blog.isPrivate/></code></dd>
+                <dt>isPrivateBlog</dt>
+                <dd><code><data:blog.isPrivateBlog/></code></dd>
+                <dt>languageDirection</dt>
+                <dd><code><data:blog.languageDirection/></code></dd>
+                <dt>latencyHeadScript</dt>
+                <dd><code><data:blog.latencyHeadScript/></code></dd>
+                <dt>layout</dt>
+                <dd><code><data:blog.layout/></code></dd>
+                <dt>locale</dt>
+                <dd><code><data:blog.locale/></code></dd>
+                <dt>localeUnderscoreDelimited</dt>
+                <dd><code><data:blog.localeUnderscoreDelimited/></code></dd>
+                <dt>meTag</dt>
+                <dd><code><data:blog.meTag/></code></dd>
+                <dt>metaDescription</dt>
+                <dd><code><data:blog.metaDescription/></code></dd>
+                <dt>mobileClass</dt>
+                <dd><code><data:blog.mobileClass/></code></dd>
+                <dt>mobileHeadScript</dt>
+                <dd><code><data:blog.mobileHeadScript/></code></dd>
+                <dt>openIdOpTag</dt>
+                <dd><code><data:blog.openIdOpTag/></code></dd>
+                <dt>pageId</dt>
+                <dd><code><data:blog.pageId/></code></dd>
+                <dt>pageName</dt>
+                <dd><code><data:blog.pageName/></code></dd>
+                <dt>pageTitle</dt>
+                <dd><code><data:blog.pageTitle/></code></dd>
+                <dt>pageType</dt>
+                <dd><code><data:blog.pageType/></code></dd>
+                <!-- <dt>plusOneApiSrc</dt>
+                <dd><code><data:blog.plusOneApiSrc/></code></dd> -->
+                <dt>postId</dt>
+                <dd><code><data:blog.postId/></code></dd>
+                <dt>postImageThumbnailUrl</dt>
+                <dd><a expr:href='data:blog.postImageThumbnailUrl'><code><data:blog.postImageThumbnailUrl/></code></a></dd>
+                <dt>postImageUrl</dt>
+                <dd><a expr:href='data:blog.postImageUrl'><code><data:blog.postImageUrl/></code></a></dd>
+                <dt>searchLabel</dt>
+                <dd><code><data:blog.searchLabel/></code></dd>
+                <dt>searchQuery</dt>
+                <dd><code><data:blog.searchQuery/></code></dd>
+                <dt>sf</dt>
+                <dd><code><data:blog.sf/></code></dd>
+                <dt>tf</dt>
+                <dd><code><data:blog.tf/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:blog.title/></code></dd>
+                <dt>url</dt>
+                <dd><a expr:href='data:blog.url'><code><data:blog.url/></code></a></dd>
+                <dt>useUniversalAnalytics</dt>
+                <dd><code><data:blog.useUniversalAnalytics/></code></dd>
+                <dt>view</dt>
+                <dd><code><data:blog.view/></code></dd>
+              </dl>
+            </dd>
+            <dt>messages</dt>
+            <dd>
+              <dl>
+                <dt>archive</dt>
+                <dd><code><data:messages.archive/></code></dd>
+                <dt>blogArchive</dt>
+                <dd><code><data:messages.blogArchive/></code></dd>
+                <dt>by</dt>
+                <dd><code><data:messages.by/></code></dd>
+                <dt>byAuthor</dt>
+                <dd><code><data:messages.byAuthor/></code></dd>
+                <dt>byAuthorLink</dt>
+                <dd><code><data:messages.byAuthorLink/></code></dd>
+                <dt>deleteBacklink</dt>
+                <dd><code><data:messages.deleteBacklink/></code></dd>
+                <dt>deleteComment</dt>
+                <dd><code><data:messages.deleteComment/></code></dd>
+                <dt>edit</dt>
+                <dd><code><data:messages.edit/></code></dd>
+                <dt>emailAddress</dt>
+                <dd><code><data:messages.emailAddress/></code></dd>
+                <dt>getEmailNotifications</dt>
+                <dd><code><data:messages.getEmailNotifications/></code></dd>
+                <dt>keepReading</dt>
+                <dd><code><data:messages.keepReading/></code></dd>
+                <dt>labels</dt>
+                <dd><code><data:messages.labels/></code></dd>
+                <dt>loadMorePosts</dt>
+                <dd><code><data:messages.loadMorePosts/></code></dd>
+                <dt>loading</dt>
+                <dd><code><data:messages.loading/></code></dd>
+                <dt>myBlogList</dt>
+                <dd><code><data:messages.myBlogList/></code></dd>
+                <dt>myFavoriteSites</dt>
+                <dd><code><data:messages.myFavoriteSites/></code></dd>
+                <dt>newer</dt>
+                <dd><code><data:messages.newer/></code></dd>
+                <dt>newerPosts</dt>
+                <dd><code><data:messages.newerPosts/></code></dd>
+                <dt>newest</dt>
+                <dd><code><data:messages.newest/></code></dd>
+                <dt>noResultsFound</dt>
+                <dd><code><data:messages.noResultsFound/></code></dd>
+                <dt>noTitle</dt>
+                <dd><code><data:messages.noTitle/></code></dd>
+                <dt>numberOfComments</dt>
+                <dd><code><data:messages.numberOfComments/></code></dd>
+                <dt>older</dt>
+                <dd><code><data:messages.older/></code></dd>
+                <dt>olderPosts</dt>
+                <dd><code><data:messages.olderPosts/></code></dd>
+                <dt>oldest</dt>
+                <dd><code><data:messages.oldest/></code></dd>
+                <dt>onlyTeamMembersCanComment</dt>
+                <dd><code><data:messages.onlyTeamMembersCanComment/></code></dd>
+                <dt>popularPosts</dt>
+                <dd><code><data:messages.popularPosts/></code></dd>
+                <dt>popularPostsFromThisBlog</dt>
+                <dd><code><data:messages.popularPostsFromThisBlog/></code></dd>
+                <dt>postAComment</dt>
+                <dd><code><data:messages.postAComment/></code></dd>
+                <dt>postedBy</dt>
+                <dd><code><data:messages.postedBy/></code></dd>
+                <dt>postedByAuthor</dt>
+                <dd><code><data:messages.postedByAuthor/></code></dd>
+                <dt>postedByAuthorLink</dt>
+                <dd><code><data:messages.postedByAuthorLink/></code></dd>
+                <dt>readMore</dt>
+                <dd><code><data:messages.readMore/></code></dd>
+                <dt>reportAbuse</dt>
+                <dd><code><data:messages.reportAbuse/></code></dd>
+                <dt>search</dt>
+                <dd><code><data:messages.search/></code></dd>
+                <dt>searchBlog</dt>
+                <dd><code><data:messages.searchBlog/></code></dd>
+                <dt>share</dt>
+                <dd><code><data:messages.share/></code></dd>
+                <dt>showAll</dt>
+                <dd><code><data:messages.showAll/></code></dd>
+                <dt>someOfMyFavoriteSites</dt>
+                <dd><code><data:messages.someOfMyFavoriteSites/></code></dd>
+                <dt>subscribe</dt>
+                <dd><code><data:messages.subscribe/></code></dd>
+                <dt>subscribeToThisBlog</dt>
+                <dd><code><data:messages.subscribeToThisBlog/></code></dd>
+                <dt>theresNothingHere</dt>
+                <dd><code><data:messages.theresNothingHere/></code></dd>
+                <dt>viewAll</dt>
+                <dd><code><data:messages.viewAll/></code></dd>
+                <dt>visitProfile</dt>
+                <dd><code><data:messages.visitProfile/></code></dd>
+              </dl>
+            </dd>
+            <dt>include</dt>
+            <dd>
+              <dl>
+                <dt>all-head-content</dt>
+                <dd><code><b:include name='all-head-content' data='blog'/></code></dd>
+                <dt>google-analytics</dt>
+                <dd><code><b:include name='google-analytics' data='blog'/></code></dd>
+                <dt>quickedit</dt>
+                <dd><code><b:include name='quickedit' data='blog'/></code></dd>
+              </dl>
+            </dd>
+          </dl>
+        </div>
+        </section>
+
+        <section>
+        <h2 title='(AdSense)'>AdSense</h2>
+        <!-- <div id='adsense-wrapper'> -->
+        <b:section id='ws-adsense'>
+          <b:widget id='AdSense1' type='AdSense' locked='true' mobile='yes' title='AdSense(AdSense)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>adCode</dt>
+                <dd><code><data:adCode/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        <!-- </div> -->
+        </section>
+
+        <section>
+        <h2 title='(Attribution)'>Attribution</h2>
+        <!-- <div id='attribution-wrapper'> -->
+        <!-- <b:section id='ws-attribution'>
+          <b:widget id='Attribution1' type='Attribution' locked='true' mobile='yes' title='Attribution(Attribution)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>attribution</dt>
+                <dd><code><data:attribution/></code></dd>
+                <dt>feedbackSurveyLink</dt>
+                <dd><code><data:feedbackSurveyLink/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section> -->
+        <!-- </div> -->
+        </section>
+
+        <section>
+        <h2 title='(ブログの投稿)'>Blog</h2>
+        <b:section id='ws-blog'>
+          <b:widget id='Blog1' type='Blog' locked='true' mobile='yes' title='Blog(ブログの投稿)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>adCode</dt>
+                <dd><code><data:adCode/></code></dd>
+                <dt>authorLabel</dt>
+                <dd><code><data:authorLabel/></code></dd>
+                <dt>backlinkLabel</dt>
+                <dd><code><data:backlinkLabel/></code></dd>
+                <dt>blogCommentMessage</dt>
+                <dd><code><data:blogCommentMessage/></code></dd>
+                <dt>blogTeamBlogMessage</dt>
+                <dd><code><data:blogTeamBlogMessage/></code></dd>
+                <dt>cmtInteractionsEnabled</dt>
+                <dd><code><data:cmtInteractionsEnabled/></code></dd>
+                <dt>commentLabel</dt>
+                <dd><code><data:commentLabel/></code></dd>
+                <dt>commentLabelPlural</dt>
+                <dd><code><data:commentLabelPlural/></code></dd>
+                <dt>commentPostedByMsg</dt>
+                <dd><code><data:commentPostedByMsg/></code></dd>
+                <dt>deleteBacklinkMsg</dt>
+                <dd><code><data:deleteBacklinkMsg/></code></dd>
+                <dt>deleteCommentMsg</dt>
+                <dd><code><data:deleteCommentMsg/></code></dd>
+                <dt>desktopLinkMsg</dt>
+                <dd><code><data:desktopLinkMsg/></code></dd>
+                <dt>desktopLinkUrl</dt>
+                <dd><code><data:desktopLinkUrl/></code></dd>
+                <dt>edit-link</dt>
+                <dd><code><data:edit/></code></dd>
+                <dt>editPostMsg</dt>
+                <dd><code><data:editPostMsg/></code></dd>
+                <dt>emailPostMsg</dt>
+                <dd><code><data:emailPostMsg/></code></dd>
+                <dt>feedLinks(<data:feedLinks.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='feedLink' index='i' values='data:feedLinks'>
+                      <li>
+                        <dl>
+                          <dt>feedLinks[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>feedType</dt>
+                              <dd><code><data:feedLink.feedType/></code></dd>
+                              <dt>mimeType</dt>
+                              <dd><code><data:feedLink.mimeType/></code></dd>
+                              <dt>name</dt>
+                              <dd><code><data:feedLink.name/></code></dd>
+                              <dt>url</dt>
+                              <dd><a expr:href='data:feedLink.url'><code><data:feedLink.url/></code></a></dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>feedLinksMsg</dt>
+                <dd><code><data:feedLinksMsg/></code></dd>
+                <!-- <dt>googlePlusBootstrap</dt>
+                <dd><code><data:googlePlusBootstrap/></code></dd> -->
+                <dt>homeMsg</dt>
+                <dd><code><data:homeMsg/></code></dd>
+                <!-- <dt>lightboxCssUrl</dt>
+                <dd><a expr:href='data:lightboxCssUrl'><code><data:lightboxCssUrl/></code></a></dd>
+                <dt>lightboxEnabled</dt>
+                <dd><code><data:lightboxEnabled/></code></dd>
+                <dt>lightboxModuleUrl</dt>
+                <dd><a expr:href='data:lightboxModuleUrl'><code><data:lightboxModuleUrl/></code></a></dd> -->
+                <dt>mobile</dt>
+                <dd><code><data:mobile/></code></dd>
+                <dt>mobileLinkMsg</dt>
+                <dd><code><data:mobileLinkMsg/></code></dd>
+                <dt>mobileLinkUrl</dt>
+                <dd><a expr:href='data:mobileLinkUrl'><code><data:mobileLinkUrl/></code></a></dd>
+                <dt>navMessage</dt>
+                <dd><code><data:navMessage/></code></dd>
+                <dt>newerPageTitle</dt>
+                <dd><code><data:newerPageTitle/></code></dd>
+                <dt>newerPageUrl</dt>
+                <dd><a expr:href='data:newerPageUrl'><code><data:newerPageUrl/></code></a></dd>
+                <dt>numPosts</dt>
+                <dd><code><data:numPosts/></code></dd>
+                <dt>olderPageTitle</dt>
+                <dd><code><data:olderPageTitle/></code></dd>
+                <dt>olderPageUrl</dt>
+                <dd><a expr:href='data:olderPageUrl'><code><data:olderPageUrl/></code></a></dd>
+                <dt>postCommentMsg</dt>
+                <dd><code><data:postCommentMsg/></code></dd>
+                <dt>postLabelsLabel</dt>
+                <dd><code><data:postLabelsLabel/></code></dd>
+                <!-- <dt>postId</dt>
+                <dd><code><data:postId/></code></dd> -->
+                <dt>posts(<data:posts.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='post' index='i' values='data:posts'>
+                      <li>
+                        <dl>
+                          <dt>posts[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>addCommentOnclick</dt>
+                              <dd><code><data:post.addCommentOnclick/></code></dd>
+                              <dt>addCommentUrl</dt>
+                              <dd><a expr:href='data:post.addCommentUrl'><code><data:post.addCommentUrl/></code></a></dd>
+                              <dt>adminClass</dt>
+                              <dd><code><data:post.adminClass/></code></dd>
+                              <dt>allowComments(設定 &gt; 投稿とコメント &gt; コメントの場所)</dt>
+                              <dd><code><data:post.allowComments/></code></dd>
+                              <dt>allowNewComments(設定 &gt; 投稿とコメント &gt; コメントの場所 および 投稿 &gt; オプション &gt; 閲覧者のコメント &gt; 許可しない)</dt>
+                              <dd><code><data:post.allowNewComments/></code></dd>
+                              <dt>appRpcRelayPath</dt>
+                              <dd><code><data:post.appRpcRelayPath/></code></dd>
+                              <dt>author</dt>
+                              <dd><code><data:post.author/></code></dd>
+                              <dt>authorAboutMe</dt>
+                              <dd><code><data:post.authorAboutMe/></code></dd>
+                              <dt>authorLabel</dt>
+                              <dd><code><data:post.authorLabel/></code></dd>
+                              <dt>authorPhoto</dt>
+                              <dd>
+                                <dl>
+                                  <dt>height</dt>
+                                  <dd><code><data:post.authorPhoto.height/></code></dd>
+                                  <dt>thumbHeight</dt>
+                                  <dd><code><data:post.authorPhoto.thumbHeight/></code></dd>
+                                  <dt>thumbUrl</dt>
+                                  <dd><a expr:href='data:post.authorPhoto.thumbUrl'><code><data:post.authorPhoto.thumbUrl/></code></a></dd>
+                                  <dt>thumbWidth</dt>
+                                  <dd><code><data:post.authorPhoto.thumbWidth/></code></dd>
+                                  <dt>url</dt>
+                                  <dd><a expr:href='data:post.authorPhoto.url'><code><data:post.authorPhoto.url/></code></a></dd>
+                                  <dt>width</dt>
+                                  <dd><code><data:post.authorPhoto.width/></code></dd>
+                                </dl>
+                              </dd>
+                              <dt>authorProfileUrl</dt>
+                              <dd><a expr:href='data:post.authorProfileUrl'><code><data:post.authorProfileUrl/></code></a></dd>
+                              <dt>avatarIndentClass</dt>
+                              <dd><code><data:post.avatarIndentClass/></code></dd>
+                              <dt>backlinks(<data:post.backlinks.length/>)</dt>
+                              <dd>
+                                <ul>
+                                  <b:loop var='backlink' index='j' values='data:post.backlinks'>
+                                    <li>
+                                      <dl>
+                                        <dt>backlinks[<data:j/>]</dt>
+                                        <dd>
+                                          <dl>
+                                            <dt>adminClass</dt>
+                                            <dd><code><data:backlink.adminClass/></code></dd>
+                                            <dt>author</dt>
+                                            <dd><code><data:backlink.author/></code></dd>
+                                            <dt>deleteUrl</dt>
+                                            <dd><code><data:backlink.deleteUrl/></code></dd>
+                                            <dt>snippet</dt>
+                                            <dd><code><data:backlink.snippet/></code></dd>
+                                            <dt>timestamp</dt>
+                                            <dd><code><data:backlink.timestamp/></code></dd>
+                                            <dt>title</dt>
+                                            <dd><code><data:backlink.title/></code></dd>
+                                            <dt>url</dt>
+                                            <dd><a expr:href='data:backlink.url'><code><data:backlink.url/></code></a></dd>
+                                          </dl>
+                                        </dd>
+                                      </dl>
+                                    </li>
+                                  </b:loop>
+                                </ul>
+                              </dd>
+                              <dt>backlinksLabel</dt>
+                              <dd><code><data:post.backlinksLabel/></code></dd>
+                              <dt>body</dt>
+                              <dd><code><data:post.body/></code></dd>
+                              <dt>canonicalUrl</dt>
+                              <dd><a expr:href='data:post.canonicalUrl'><code><data:post.canonicalUrl/></code></a></dd>
+                              <dt>cmtfpIframe</dt>
+                              <dd><code><data:post.cmtfpIframe/></code></dd>
+                              <dt>cmtIframeInitialHeight</dt>
+                              <dd><code><data:post.cmtIframeInitialHeight/></code></dd>
+                              <dt>commentConfig</dt>
+                              <dd><code><data:post.commentConfig/></code></dd>
+                              <dt>commentFormIframeSrc</dt>
+                              <dd><code><data:post.commentFormIframeSrc/></code></dd>
+                              <dt>commentHtml</dt>
+                              <dd><code><data:post.commentHtml/></code></dd>
+                              <dt>commentJso</dt>
+                              <dd><code><data:post.commentJso/></code></dd>
+                              <dt>commentLabelFull</dt>
+                              <dd><code><data:post.commentLabelFull/></code></dd>
+                              <dt>commentMsgs</dt>
+                              <dd><code><data:post.commentMsgs/></code></dd>
+                              <dt>commentPagingRequired</dt>
+                              <dd><code><data:post.commentPagingRequired/></code></dd>
+                              <dt>commentRangeText</dt>
+                              <dd><code><data:post.commentRangeText/></code></dd>
+                              <dt>commentSource(Google+ &gt; このブログで Google+ のコメントを使う)</dt>
+                              <dd><code><data:post.commentSource/></code></dd>
+                              <dt>commentSrc</dt>
+                              <dd><code><data:post.commentSrc/></code></dd>
+                              <dt>comments(<data:post.comments.length/>)</dt>
+                              <dd>
+                                <ul>
+                                  <b:loop var='comment' index='j' values='data:post.comments'>
+                                    <li>
+                                      <dl>
+                                        <dt>comments[<data:j/>]</dt>
+                                        <dd>
+                                          <dl>
+                                            <dt>adminClass</dt>
+                                            <dd><code><data:comment.adminClass/></code></dd>
+                                            <dt>anchorName</dt>
+                                            <dd><code><data:comment.anchorName/></code></dd>
+                                            <dt>author</dt>
+                                            <dd><code><data:comment.author/></code></dd>
+                                            <dt>authorAvatarImage</dt>
+                                            <dd><code><data:comment.authorAvatarImage/></code></dd>
+                                            <dt>authorClass</dt>
+                                            <dd><code><data:comment.authorClass/></code></dd>
+                                            <dt>authorUrl</dt>
+                                            <dd><a expr:href='data:comment.authorUrl'><code><data:comment.authorUrl/></code></a></dd>
+                                            <dt>body</dt>
+                                            <dd><code><data:comment.body/></code></dd>
+                                            <dt>cmtBodyIdPostfix</dt>
+                                            <dd><code><data:comment.cmtBodyIdPostfix/></code></dd>
+                                            <dt>deleteClass</dt>
+                                            <dd><code><data:comment.deleteClass/></code></dd>
+                                            <dt>deleteUrl</dt>
+                                            <dd><code><data:comment.deleteUrl/></code></dd>
+                                            <dt>displayTime</dt>
+                                            <dd><code><data:comment.displayTime/></code></dd>
+                                            <dt>favicon</dt>
+                                            <dd><code><data:comment.favicon/></code></dd>
+                                            <dt>id</dt>
+                                            <dd><code><data:comment.id/></code></dd>
+                                            <dt>inReplyTo</dt>
+                                            <dd><code><data:comment.inReplyTo/></code></dd>
+                                            <dt>isDeleted</dt>
+                                            <dd><code><data:comment.isDeleted/></code></dd>
+                                            <dt>link</dt>
+                                            <dd><code><data:comment.link/></code></dd>
+                                            <dt>parentId</dt>
+                                            <dd><code><data:comment.parentId/></code></dd>
+                                            <dt>permalink</dt>
+                                            <dd><code><data:comment.permalink/></code></dd>
+                                            <dt>timestamp</dt>
+                                            <dd><code><data:comment.timestamp/></code></dd>
+                                            <dt>url</dt>
+                                            <dd><a expr:href='data:comment.url'><code><data:comment.url/></code></a></dd>
+                                          </dl>
+                                        </dd>
+                                      </dl>
+                                    </li>
+                                  </b:loop>
+                                </ul>
+                              </dd>
+                              <dt>communityId</dt>
+                              <dd><code><data:post.communityId/></code></dd>
+                              <dt>createLinkLabel</dt>
+                              <dd><code><data:post.createLinkLabel/></code></dd>
+                              <dt>createLinkUrl</dt>
+                              <dd><a expr:href='data:post.createLinkUrl'><code><data:post.createLinkUrl/></code></a></dd>
+                              <dt>dateHeader</dt>
+                              <dd><code><data:post.dateHeader/></code></dd>
+                              <dt>dummyTag</dt>
+                              <dd><code><data:post.dummyTag/></code></dd>
+                              <dt>editUrl</dt>
+                              <dd><code><data:post.editUrl/></code></dd>
+                              <dt>emailPostUrl</dt>
+                              <dd><code><data:post.emailPostUrl/></code></dd>
+                              <dt>embedCommentForm</dt>
+                              <dd><code><data:post.embedCommentForm/></code></dd>
+                              <dt>enclosures.length</dt>
+                              <dd><code><data:post.enclosures.length/></code></dd>
+                              <dt>enclosures</dt>
+                              <dd><code><data:post.enclosures/></code></dd>
+                              <dt>feedLinks(<data:post.feedLinks.length/>)</dt>
+                              <dd>
+                                <ul>
+                                  <b:loop var='feedLink' index='j' values='data:post.feedLinks'>
+                                    <li>
+                                      <dl>
+                                        <dt>feedLinks[<data:j/>]</dt>
+                                        <dd>
+                                          <dl>
+                                            <dt>feedType</dt>
+                                            <dd><code><data:feedLink.feedType/></code></dd>
+                                            <dt>mimeType</dt>
+                                            <dd><code><data:feedLink.mimeType/></code></dd>
+                                            <dt>name</dt>
+                                            <dd><code><data:feedLink.name/></code></dd>
+                                            <dt>url</dt>
+                                            <dd><a expr:href='data:feedLink.url'><code><data:feedLink.url/></code></a></dd>
+                                          </dl>
+                                        </dd>
+                                      </dl>
+                                    </li>
+                                  </b:loop>
+                                </ul>
+                              </dd>
+                              <dt>firstImageUrl</dt>
+                              <dd><a expr:href='data:post.firstImageUrl'><code><data:post.firstImageUrl/></code></a></dd>
+                              <dt>friendConnectJs</dt>
+                              <dd><code><data:post.friendConnectJs/></code></dd>
+                              <!-- <dt>googlePlusShareTag</dt>
+                              <dd><code><data:post.googlePlusShareTag/></code></dd> -->
+                              <dt>hasJumpLink</dt>
+                              <dd><code><data:post.hasJumpLink/></code></dd>
+                              <dt>hasNewerLinks</dt>
+                              <dd><code><data:post.hasNewerLinks/></code></dd>
+                              <dt>hasOlderLinks</dt>
+                              <dd><code><data:post.hasOlderLinks/></code></dd>
+                              <dt>id</dt>
+                              <dd><code><data:post.id/></code></dd>
+                              <dt>iframeColorizer</dt>
+                              <dd><code><data:post.iframeColorizer/></code></dd>
+                              <dt>iframeCommentSrc</dt>
+                              <dd><code><data:post.iframeCommentSrc/></code></dd>
+                              <dt>includeAd</dt>
+                              <dd><code><data:post.includeAd/></code></dd>
+                              <dt>isDateStart</dt>
+                              <dd><code><data:post.isDateStart/></code></dd>
+                              <dt>isFirstPost</dt>
+                              <dd><code><data:post.isFirstPost/></code></dd>
+                              <dt>jumpText</dt>
+                              <dd><code><data:post.jumpText/></code></dd>
+                              <dt>labels(<data:post.labels.length/>)</dt>
+                              <dd>
+                                <ul>
+                                  <b:loop var='label' index='j' values='data:post.labels'>
+                                    <li>
+                                      <dl>
+                                        <dt>labels[<data:j/>]</dt>
+                                        <dd>
+                                          <dl>
+                                            <dt>isLast</dt>
+                                            <dd><code><data:label.isLast/></code></dd>
+                                            <dt>name</dt>
+                                            <dd><code><data:label.name/></code></dd>
+                                            <dt>url</dt>
+                                            <dd><a expr:href='data:label.url'><code><data:label.url/></code></a></dd>
+                                          </dl>
+                                        </dd>
+                                      </dl>
+                                    </li>
+                                  </b:loop>
+                                </ul>
+                              </dd>
+                              <dt>lastUpdatedISO8601</dt>
+                              <dd><code><data:post.lastUpdatedISO8601/></code></dd>
+                              <dt>link</dt>
+                              <dd><code><data:post.link/></code></dd>
+                              <dt>newLinkClass</dt>
+                              <dd><code><data:post.newLinkClass/></code></dd>
+                              <dt>newerLinkText</dt>
+                              <dd><code><data:post.newerLinkText/></code></dd>
+                              <dt>newerLinkUrl</dt>
+                              <dd><a expr:href='data:post.newerLinkUrl'><code><data:post.newerLinkUrl/></code></a></dd>
+                              <dt>newestLinkText</dt>
+                              <dd><code><data:post.newestLinkText/></code></dd>
+                              <dt>newestLinkUrl</dt>
+                              <dd><a expr:href='data:post.newestLinkUrl'><code><data:post.newestLinkUrl/></code></a></dd>
+                              <dt>noNewCommentsText(投稿 &gt; オプション &gt; 閲覧者のコメント &gt; 許可しない（既存のバックリンクを表示する）)</dt>
+                              <dd><code><data:post.noNewCommentsText/></code></dd>
+                              <dt>numBacklinks</dt>
+                              <dd><code><data:post.numBacklinks/></code></dd>
+                              <dt>numComments</dt>
+                              <dd><code><data:post.numComments/></code></dd>
+                              <dt>oldLinkClass</dt>
+                              <dd><code><data:post.oldLinkClass/></code></dd>
+                              <dt>olderLinkText</dt>
+                              <dd><code><data:post.olderLinkText/></code></dd>
+                              <dt>olderLinkUrl</dt>
+                              <dd><a expr:href='data:post.olderLinkUrl'><code><data:post.olderLinkUrl/></code></a></dd>
+                              <dt>oldestLinkText</dt>
+                              <dd><code><data:post.oldestLinkText/></code></dd>
+                              <dt>oldestLinkUrl</dt>
+                              <dd><a expr:href='data:post.oldestLinkUrl'><code><data:post.oldestLinkUrl/></code></a></dd>
+                              <dt>sharePostUrl</dt>
+                              <dd><code><data:post.sharePostUrl/></code></dd>
+                              <dt>reactionsUrl</dt>
+                              <dd><code><data:post.reactionsUrl/></code></dd>
+                              <dt>showBacklinks</dt>
+                              <dd><code><data:post.showBacklinks/></code></dd>
+                              <dt>showThreadedComments</dt>
+                              <dd><code><data:post.showThreadedComments/></code></dd>
+                              <dt>snippet</dt>
+                              <dd><code><data:post.snippet/></code></dd>
+                              <dt>thumbnailUrl</dt>
+                              <dd><a expr:href='data:post.thumbnailUrl'><code><data:post.thumbnailUrl/></code></a></dd>
+                              <dt>timestamp</dt>
+                              <dd><code><data:post.timestamp/></code></dd>
+                              <dt>timestampISO8601</dt>
+                              <dd><code><data:post.timestampISO8601/></code></dd>
+                              <dt>timestampLabel</dt>
+                              <dd><code><data:post.timestampLabel/></code></dd>
+                              <dt>title</dt>
+                              <dd><code><data:post.title/></code></dd>
+                              <dt>url</dt>
+                              <dd><a expr:href='data:post.url'><code><data:post.url/></code></a></dd>
+                              <dt>viewType</dt>
+                              <dd><code><data:post.viewType/></code></dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>reactionsLabel</dt>
+                <dd><code><data:reactionsLabel/></code></dd>
+                <dt>shareMsg</dt>
+                <dd><code><data:shareMsg/></code></dd>
+                <dt>showAuthor</dt>
+                <dd><code><data:showAuthor/></code></dd>
+                <!-- <dt>showBacklinks</dt>
+                <dd><code><data:showBacklinks/></code></dd> -->
+                <dt>showCmtPopup</dt>
+                <dd><code><data:showCmtPopup/></code></dd>
+                <dt>showReactions</dt>
+                <dd><code><data:showReactions/></code></dd>
+                <dt>showTimestamp</dt>
+                <dd><code><data:showTimestamp/></code></dd>
+                <dt>timestampLabel</dt>
+                <dd><code><data:timestampLabel/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(ブログ アーカイブ)'>BlogArchive</h2>
+        <b:section id='ws-blogarchive'>
+          <b:widget id='BlogArchive1' type='BlogArchive' locked='true' mobile='yes' title='BlogArchive(ブログ アーカイブ)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>data(<data:data.length/>)</dt>
+                <dd>
+                  <b:if cond='data:data'>
+                    <b:include name='interval' data='data'/>
+                  </b:if>
+                </dd>
+                <dt>edit-link</dt>
+                <dd><code><data:edit-link/></code></dd>
+                <!-- <dt>languageDirection</dt>
+                <dd><code><data:languageDirection/></code></dd>
+                <dt>loadingMessage</dt>
+                <dd><code><data:loadingMessage/></code></dd> -->
+                <dt>style</dt>
+                <dd><code><data:style/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+
+            <b:includable id='interval' var='data'>
+              <ul>
+                <b:loop var='archive' index='i' values='data:data'>
+                  <li>
+                    <dl>
+                      <dt>data[<data:i/>]</dt>
+                      <dd>
+                        <dl>
+                          <dt>data(<data:archive.data.length/>)</dt>
+                          <dd>
+                            <b:if cond='data:archive.data'>
+                              <b:include name='interval' data='archive.data'/>
+                            </b:if>
+                          </dd>
+                          <dt>expclass</dt>
+                          <dd><code><data:archive.expclass/></code></dd>
+                          <dt>name</dt>
+                          <dd><code><data:archive.name/></code></dd>
+                          <dt>posts(<data:archive.posts.length/>)</dt>
+                          <dd>
+                            <b:if cond='data:archive.posts'>
+                              <ul>
+                                <b:loop var='post' index='j' values='data:archive.posts'>
+                                  <li>
+                                    <dl>
+                                      <dt>posts[<data:j/>]</dt>
+                                      <dd>
+                                        <dl>
+                                          <dt>title</dt>
+                                          <dd><code><data:post.title/></code></dd>
+                                          <dt>url</dt>
+                                          <dd><a expr:href='data:post.url'><code><data:post.url/></code></a></dd>
+                                        </dl>
+                                      </dd>
+                                    </dl>
+                                  </li>
+                                </b:loop>
+                              </ul>
+                            </b:if>
+                          </dd>
+                          <dt>post-count</dt>
+                          <dd><code><data:archive.post-count/></code></dd>
+                          <dt>toggleId</dt>
+                          <dd><code><data:archive.toggleId/></code></dd>
+                          <dt>url</dt>
+                          <dd><a expr:href='data:archive.url'><code><data:archive.url/></code></a></dd>
+                        </dl>
+                      </dd>
+                    </dl>
+                  </li>
+                </b:loop>
+              </ul>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(ブログリスト)'>BlogList</h2>
+        <b:section id='ws-bloglist'>
+          <b:widget id='BlogList1' type='BlogList' locked='true' mobile='yes' title='BlogList(ブログリスト)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>items(<data:items.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='item' index='i' values='data:items'>
+                      <li>
+                        <dl>
+                          <dt>items[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>blogIconUrl</dt>
+                              <dd><a expr:href='data:item.blogIconUrl'><code><data:item.blogIconUrl/></code></a></dd>
+                              <dt>blogTitle</dt>
+                              <dd><code><data:item.blogTitle/></code></dd>
+                              <dt>blogUrl</dt>
+                              <dd><a expr:href='data:item.blogUrl'><code><data:item.blogUrl/></code></a></dd>
+                              <dt>displayStyle</dt>
+                              <dd><code><data:item.displayStyle/></code></dd>
+                              <dt>itemSnippet</dt>
+                              <dd><code><data:item.itemSnippet/></code></dd>
+                              <dt>itemThumbnail.height</dt>
+                              <dd><code><data:item.itemThumbnail.height/></code></dd>
+                              <dt>itemThumbnail.url</dt>
+                              <dd><a expr:href='data:item.itemThumbnail.url'><code><data:item.itemThumbnail.url/></code></a></dd>
+                              <dt>itemThumbnail.width</dt>
+                              <dd><code><data:item.itemThumbnail.width/></code></dd>
+                              <dt>itemTitle</dt>
+                              <dd><code><data:item.itemTitle/></code></dd>
+                              <dt>itemUrl</dt>
+                              <dd><a expr:href='data:item.itemUrl'><code><data:item.itemUrl/></code></a></dd>
+                              <dt>timePeriodSinceLastUpdate</dt>
+                              <dd><code><data:item.timePeriodSinceLastUpdate/></code></dd>
+                          </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>numItemsToShow</dt>
+                <dd><code><data:numItemsToShow/></code></dd>
+                <dt>showAllText</dt>
+                <dd><code><data:showAllText/></code></dd>
+                <dt>showNText</dt>
+                <dd><code><data:showNText/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>totalItems</dt>
+                <dd><code><data:totalItems/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(ロゴ)'>BloggerButton</h2>
+        <b:section id='ws-bloggerbutton'>
+          <b:widget id='BloggerButton1' type='BloggerButton' locked='true' mobile='yes' title='BloggerButton(ロゴ)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>fullButton</dt>
+                <dd><code><data:fullButton/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(検索ボックス)'>CustomSearch</h2>
+        <!-- <b:section id='ws-customsearch'>
+          <b:widget id='CustomSearch1' type='CustomSearch' locked='true' mobile='yes' title='CustomSearch(検索ボックス)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>activeBorderColor</dt>
+                <dd><code><data:activeBorderColor/></code></dd>
+                <dt>backgroundColor</dt>
+                <dd><code><data:backgroundColor/></code></dd>
+                <dt>blogUrl</dt>
+                <dd><a expr:href='data:blogUrl'><code><data:blogUrl/></code></a></dd>
+                <dt>borderColor</dt>
+                <dd><code><data:borderColor/></code></dd>
+                <dt>cse_ua</dt>
+                <dd><code><data:cse_ua/></code></dd>
+                <dt>dateColor</dt>
+                <dd><code><data:dateColor/></code></dd>
+                <dt>edit-link</dt>
+                <dd><code><data:edit-link/></code></dd>
+                <dt>includeBlog</dt>
+                <dd><code><data:includeBlog/></code></dd>
+                <dt>includePostLinks</dt>
+                <dd><code><data:includePostLinks/></code></dd>
+                <dt>includeWeb</dt>
+                <dd><code><data:includeWeb/></code></dd>
+                <dt>linkColor</dt>
+                <dd><code><data:linkColor/></code></dd>
+                <dt>linkLists(<data:linkLists.length/>)</dt>
+                <dd>?</dd>
+                <dt>linkedFromHereMsg</dt>
+                <dd><code><data:linkedFromHereMsg/></code></dd>
+                <dt>loadingMsg</dt>
+                <dd><code><data:loadingMsg/></code></dd>
+                <dt>textColor</dt>
+                <dd><code><data:textColor/></code></dd>
+                <dt>theWebMsg</dt>
+                <dd><code><data:theWebMsg/></code></dd>
+                <dt>thisBlogMsg</dt>
+                <dd><code><data:thisBlogMsg/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>urlColor</dt>
+                <dd><code><data:urlColor/></code></dd>
+                <dt>visitedLinkColor</dt>
+                <dd><code><data:visitedLinkColor/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section> -->
+        </section>
+
+        <section>
+        <h2 title='(注目の投稿)'>FeaturedPost</h2>
+        <b:section id='ws-featuredpost'>
+          <b:widget id='FeaturedPost1' type='FeaturedPost' locked='true' mobile='yes' title='FeaturedPost(注目の投稿)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>postFirstImage</dt>
+                <dd><code><data:postFirstImage/></code></dd>
+                <dt>postSummary</dt>
+                <dd><code><data:postSummary/></code></dd>
+                <dt>postTitle</dt>
+                <dd><code><data:postTitle/></code></dd>
+                <dt>postUrl</dt>
+                <dd><a expr:href='data:postUrl'><code><data:postUrl/></code></a></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(フィード)'>Feed</h2>
+        <b:section id='ws-feed'>
+          <b:widget id='Feed1' type='Feed' locked='true' mobile='yes' title='Feed(フィード)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>feedUrl</dt>
+                <dd><a expr:href='data:feedUrl'><code><data:feedUrl/></code></a></dd>
+                <dt>loadingMsg</dt>
+                <dd><code><data:loadingMsg/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(メールでフォロー)'>FollowByEmail</h2>
+        <b:section id='ws-followbyemail'>
+          <b:widget id='FollowByEmail1' type='FollowByEmail' locked='true' mobile='yes' title='FollowByEmail(メールでフォロー)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>feedPath</dt>
+                <dd><code><data:feedPath/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(HTML/JavaScript)'>HTML</h2>
+        <b:section id='ws-html'>
+          <b:widget id='HTML1' type='HTML' locked='true' mobile='yes' title='HTML(HTML/JavaScript)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>content</dt>
+                <dd><code><data:content/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(ページ ヘッダー)'>Header</h2>
+        <b:section id='ws-header'>
+          <b:widget id='Header1' type='Header' locked='true' mobile='yes' title='Header(ページ ヘッダー)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>backgroundPositionStyleStr</dt>
+                <dd><code><data:backgroundPositionStyleStr/></code></dd>
+                <dt>description</dt>
+                <dd><code><data:description/></code></dd>
+                <dt>edit-link</dt>
+                <dd><code><data:edit-link/></code></dd>
+                <dt>height</dt>
+                <dd><code><data:height/></code></dd>
+                <dt>imagePlacement</dt>
+                <dd><code><data:imagePlacement/></code></dd>
+                <dt>mobile</dt>
+                <dd><code><data:mobile/></code></dd>
+                <dt>sourceUrl</dt>
+                <dd><a expr:href='data:sourceUrl'><code><data:sourceUrl/></code></a></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>useImage</dt>
+                <dd><code><data:useImage/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+                <dt>width</dt>
+                <dd><code><data:width/></code></dd>
+                <dt>widthStyleStr</dt>
+                <dd><code><data:widthStyleStr/></code></dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(イメージ)'>Image</h2>
+        <b:section id='ws-image'>
+          <b:widget id='Image1' type='Image' locked='true' mobile='yes' title='Image(イメージ)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>caption</dt>
+                <dd><code><data:caption/></code></dd>
+                <dt>height</dt>
+                <dd><code><data:height/></code></dd>
+                <dt>link</dt>
+                <dd><code><data:link/></code></dd>
+                <dt>sourceUrl</dt>
+                <dd><a expr:href='data:sourceUrl'><code><data:sourceUrl/></code></a></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+                <dt>width</dt>
+                <dd><code><data:width/></code></dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(ラベル)'>Label</h2>
+        <b:section id='ws-label'>
+          <b:widget id='Label1' type='Label' locked='true' mobile='yes' title='Label(ラベル)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>edit-link</dt>
+                <dd><code><data:edit-link/></code></dd>
+                <dt>labels(<data:labels.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='label' index='i' values='data:labels'>
+                      <li>
+                        <dl>
+                          <dt>labels[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>count</dt>
+                              <dd><code><data:label.count/></code></dd>
+                              <dt>name</dt>
+                              <dd><code><data:label.name/></code></dd>
+                              <dt>url</dt>
+                              <dd><a expr:href='data:label.url'><code><data:label.url/></code></a></dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(リンク リスト)'>LinkList</h2>
+        <b:section id='ws-linklist'>
+          <b:widget id='LinkList1' type='LinkList' locked='true' mobile='yes' title='LinkList(リンク リスト)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>links(<data:links.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='link' index='i' values='data:links'>
+                      <li>
+                        <dl>
+                          <dt>links[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>name</dt>
+                              <dd><code><data:link.name/></code></dd>
+                              <dt>target</dt>
+                              <dd><code><data:link.target/></code></dd>
+                          </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title=''>Navbar</h2>
+        <!-- <b:section id='ws-navbar'>
+          <b:widget id='Navbar1' type='Navbar' locked='true' mobile='yes' title='Navbar(Navbar)'>
+            <b:includable id='main'>
+              <dl>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section> -->
+        </section>
+
+        <section>
+        <h2 title='(ニュースリール)'>NewsBar</h2>
+        <!-- <b:section id='ws-newsbar'>
+          <b:widget id='NewsBar1' type='NewsBar' locked='true' mobile='yes' title='NewsBar(ニュースリール)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>expression</dt>
+                <dd><code><data:expression/></code></dd>
+                <dt>format</dt>
+                <dd><code><data:format/></code></dd>
+                <dt>linkNewWindow</dt>
+                <dd><code><data:linkNewWindow/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section> -->
+        </section>
+
+        <section>
+        <h2 title='(ページ)'>PageList</h2>
+        <b:section id='ws-pagelist'>
+          <b:widget id='PageList1' type='PageList' locked='true' mobile='yes' title='PageList(ページ)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>edit-link</dt>
+                <dd><code><data:edit-link/></code></dd>
+                <dt>links(<data:links.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='link' index='i' values='data:links'>
+                      <li>
+                        <dl>
+                          <dt>links[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>href</dt>
+                              <dd><a expr:href='data:link.href'><code><data:link.href/></code></a></dd>
+                              <dt>id</dt>
+                              <dd><code><data:link.id/></code></dd>
+                              <dt>isCurrentPage</dt>
+                              <dd><code><data:link.isCurrentPage/></code></dd>
+                              <dt>title</dt>
+                              <dd><code><data:link.title/></code></dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>mobile</dt>
+                <dd><code><data:mobile/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <!-- <section>
+        <h2 title='(Google+ バッジ)'>PlusBadge</h2>
+        <b:section id='ws-plusbadge'>
+          <b:widget id='PlusBadge1' type='PlusBadge' locked='true' mobile='yes' title='PlusBadge(Google+ バッジ)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>badgeType</dt>
+                <dd><code><data:badgeType/></code></dd>
+                <dt>language</dt>
+                <dd><code><data:language/></code></dd>
+                <dt>layout</dt>
+                <dd><code><data:layout/></code></dd>
+                <dt>profileUrl</dt>
+                <dd><a expr:href='data:profileUrl'><code><data:profileUrl/></code></a></dd>
+                <dt>showCoverPhoto</dt>
+                <dd><code><data:showCoverPhoto/></code></dd>
+                <dt>showTagline</dt>
+                <dd><code><data:showTagline/></code></dd>
+                <dt>theme</dt>
+                <dd><code><data:theme/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+                <dt>width</dt>
+                <dd><code><data:width/></code></dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section> -->
+
+        <!-- <section>
+        <h2 title='(Google+ フォロワー)'>PlusFollowers</h2>
+        <b:section id='ws-plusfollowers'>
+          <b:widget id='PlusFollowers1' type='PlusFollowers' locked='true' mobile='yes' title='PlusFollowers(Google+ フォロワー)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>height</dt>
+                <dd><code><data:height/></code></dd>
+                <dt>language</dt>
+                <dd><code><data:language/></code></dd>
+                <dt>profileUrl</dt>
+                <dd><a expr:href='data:profileUrl'><code><data:profileUrl/></code></a></dd>
+                <dt>theme</dt>
+                <dd><code><data:theme/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+                <dt>width</dt>
+                <dd><code><data:width/></code></dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section> -->
+
+        <!-- <section>
+        <h2 title='(+1 ボタン)'>PlusOne</h2>
+        <b:section id='ws-plusone'>
+          <b:widget id='PlusOne1' type='PlusOne' locked='true' mobile='yes' title='PlusOne(+1 ボタン)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>annotation</dt>
+                <dd><code><data:annotation/></code></dd>
+                <dt>language</dt>
+                <dd><code><data:language/></code></dd>
+                <dt>size</dt>
+                <dd><code><data:size/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section> -->
+
+        <section>
+        <h2 title='(人気の投稿)'>PopularPosts</h2>
+        <b:section id='ws-popularposts'>
+          <b:widget id='PopularPosts1' type='PopularPosts' locked='true' mobile='yes' title='PopularPosts(人気の投稿)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>edit-link</dt>
+                <dd><code><data:edit-link/></code></dd>
+                <dt>posts(<data:posts.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='post' index='i' values='data:posts'>
+                      <li>
+                        <dl>
+                          <dt>posts[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>href</dt>
+                              <dd><a expr:href='data:post.href'><code><data:post.href/></code></a></dd>
+                              <dt>snippet</dt>
+                              <dd><code><data:post.snippet/></code></dd>
+                              <dt>thumbnail</dt>
+                              <dd><a expr:href='data:post.thumbnail'><code><data:post.thumbnail/></code></a></dd>
+                              <dt>title</dt>
+                              <dd><code><data:post.title/></code></dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>showSnippets</dt>
+                <dd><code><data:showSnippets/></code></dd>
+                <dt>showThumbnails</dt>
+                <dd><code><data:showThumbnails/></code></dd>
+                <dt>thumbnailSize</dt>
+                <dd><code><data:thumbnailSize/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(基本情報)'>Profile</h2>
+        <b:section id='ws-profile'>
+          <b:widget id='Profile1' type='Profile' locked='true' mobile='yes' title='Profile(基本情報)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>aboutme</dt>
+                <dd><code><data:aboutme/></code></dd>
+                <dt>authors(<data:authors.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='author' index='i' values='data:authors'>
+                      <dl>
+                        <dt>authors[<data:i/>]</dt>
+                        <dd>
+                          <dl>
+                            <dt>display-name</dt>
+                            <dd><code><data:author.display-name/></code></dd>
+                            <dt>profileLogo</dt>
+                            <dd><a expr:href='data:author.profileLogo'><code><data:author.profileLogo/></code></a></dd>
+                            <dt>userUrl</dt>
+                            <dd><a expr:href='data:author.userUrl'><code><data:author.userUrl/></code></a></dd>
+                          </dl>
+                        </dd>
+                      </dl>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>displayname</dt>
+                <dd><code><data:displayname/></code></dd>
+                <dt>edit-link</dt>
+                <dd><code><data:edit-link/></code></dd>
+                <dt>hasgoogleprofile</dt>
+                <dd><code><data:hasgoogleprofile/></code></dd>
+                <dt>location</dt>
+                <dd><code><data:location/></code></dd>
+                <dt>photo.alt</dt>
+                <dd><code><data:photo.alt/></code></dd>
+                <dt>photo.height</dt>
+                <dd><code><data:photo.height/></code></dd>
+                <dt>photo.url</dt>
+                <dd><a expr:href='data:photo.url'><code><data:photo.url/></code></a></dd>
+                <dt>photo.width</dt>
+                <dd><code><data:photo.width/></code></dd>
+                <dt>profileLogo</dt>
+                <dd><a expr:href='data:profileLogo'><code><data:profileLogo/></code></a></dd>
+                <dt>showlocation</dt>
+                <dd><code><data:showlocation/></code></dd>
+                <dt>team</dt>
+                <dd><code><data:team/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>userUrl</dt>
+                <dd><a expr:href='data:userUrl'><code><data:userUrl/></code></a></dd>
+                <dt>viewProfileMsg</dt>
+                <dd><code><data:viewProfileMsg/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(スライドショー)'>Slideshow</h2>
+        <!-- <b:section id='ws-slideshow'>
+          <b:widget id='Slideshow1' type='Slideshow' locked='true' mobile='yes' title='Slideshow(スライドショー)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>computedFeed</dt>
+                <dd><code><data:computedFeed/></code></dd>
+                <dt>linkNewWindow</dt>
+                <dd><code><data:linkNewWindow/></code></dd>
+                <dt>randomizeFeed</dt>
+                <dd><code><data:randomizeFeed/></code></dd>
+                <dt>speed</dt>
+                <dd><code><data:speed/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section> -->
+        </section>
+
+        <section>
+        <h2 title='(ブログの統計情報)'>Stats</h2>
+        <b:section id='ws-stats'>
+          <b:widget id='Stats1' type='Stats' locked='true' mobile='yes' title='Stats(ブログの統計情報)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>showAnimatedCounter</dt>
+                <dd><code><data:showAnimatedCounter/></code></dd>
+                <dt>showGraphicalCounter</dt>
+                <dd><code><data:showGraphicalCounter/></code></dd>
+                <dt>showSparkline</dt>
+                <dd><code><data:showSparkline/></code></dd>
+                <dt>statsUrl</dt>
+                <dd><code><data:statsUrl/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(リンク登録)'>Subscribe</h2>
+        <b:section id='ws-subscribe'>
+          <b:widget id='Subscribe1' type='Subscribe' locked='true' mobile='yes' title='Subscribe(リンク登録)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>arrowDropdownImg</dt>
+                <dd><a expr:href='data:arrowDropdownImg'><code><data:arrowDropdownImg/></code></a></dd>
+                <dt>edit-link</dt>
+                <dd><code><data:edit-link/></code></dd>
+                <dt>feedIconImg</dt>
+                <dd><a expr:href='data:feedIconImg'><code><data:feedIconImg/></code></a></dd>
+                <dt>feeds(<data:feeds.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='feed' index='i' values='data:feeds'>
+                      <li>
+                        <dl>
+                          <dt>feeds[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>encodedUrl</dt>
+                              <dd><code><data:feed.encodedUrl/></code></dd>
+                              <dt>title</dt>
+                              <dd><code><data:feed.title/></code></dd>
+                              <dt>type</dt>
+                              <dd><code><data:feed.type/></code></dd>
+                              <dt>url</dt>
+                              <dd><a expr:href='data:feed.url'><code><data:feed.url/></code></a></dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>imagePathBase</dt>
+                <dd><code><data:imagePathBase/></code></dd>
+                <dt>isPublic</dt>
+                <dd><code><data:isPublic/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+                <dt>widgetId</dt>
+                <dd><code><data:widgetId/></code></dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(テキスト)'>Text</h2>
+        <b:section id='ws-text'>
+          <b:widget id='Text1' type='Text' locked='true' mobile='yes' title='Text(テキスト)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>content</dt>
+                <dd><code><data:content/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(リスト)'>TextList</h2>
+        <b:section id='ws-textlist'>
+          <b:widget id='TextList1' type='TextList' locked='true' mobile='yes' title='TextList(リスト)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>items(<data:items.length/>)</dt>
+                <dd>
+                  <ul>
+                    <b:loop var='item' index='i' values='data:items'>
+                      <li>
+                        <dl>
+                          <dt>items[<data:i/>]</dt>
+                          <dd>
+                            <dl>
+                              <dt>item</dt>
+                              <dd><code><data:item/></code></dd>
+                          </dl>
+                          </dd>
+                        </dl>
+                      </li>
+                    </b:loop>
+                  </ul>
+                </dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(翻訳)'>Translate</h2>
+        <b:section id='ws-translate'>
+          <b:widget id='Translate1' type='Translate' locked='true' mobile='yes' title='Translate(翻訳)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>layout</dt>
+                <dd><code><data:layout/></code></dd>
+                <dt>pageLanguage</dt>
+                <dd><code><data:pageLanguage/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        </section>
+
+        <section>
+        <h2 title='(動画バー)'>VideoBar</h2>
+        <!-- <b:section id='ws-videobar'>
+          <b:widget id='VideoBar1' type='VideoBar' locked='true' mobile='yes' title='VideoBar(動画バー)'>
+            <b:includable id='main'>
+              <dl>
+                <dt>expression</dt>
+                <dd><code><data:expression/></code></dd>
+                <dt>format</dt>
+                <dd><code><data:format/></code></dd>
+                <dt>title</dt>
+                <dd><code><data:title/></code></dd>
+                <dt>widget</dt>
+                <dd>
+                  <dl>
+                    <dt>actionUrl</dt>
+                    <dd><code><data:widget.actionUrl/></code></dd>
+                    <dt>instanceId</dt>
+                    <dd><code><data:widget.instanceId/></code></dd>
+                    <dt>quickEditUrl</dt>
+                    <dd><code><data:widget.quickEditUrl/></code></dd>
+                    <dt>sectionId</dt>
+                    <dd><code><data:widget.sectionId/></code></dd>
+                    <dt>type</dt>
+                    <dd><code><data:widget.type/></code></dd>
+                  </dl>
+                </dd>
+              </dl>
+            </b:includable>
+          </b:widget>
+        </b:section> -->
+        </section>
+
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer id='footer'>
+  <section id='attribution'>
+    <ul class='inline'>
+      <li><p>&amp;copy; 2015 <a href='https://www.blogger.com/profile/00997055684592933660'>imaoki</a></p></li>
+      <li><a class='icon-github' href='https://github.com/imaoki'></a></li>
+    </ul>
+  </section>
+</footer>
+
+<div id='nav-container'>
+  <div id='nav'>
+    <div id='pagetop' class='js hidden'></div>
+  </div>
+</div>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://imaoki.github.io/script/highlight.min.js'></script>
+<script src='https://imaoki.github.io/script/toc.min.js'></script>
+<script src='https://imaoki.github.io/script/datatag.min.js'></script>
+
+&lt;div class='hidden remove'&gt;&lt;!&#45;&#45;</body>&#45;&#45;&gt;&lt;/div&gt;
+&lt;/body&gt;
+</html>

@@ -1,0 +1,141 @@
+@charset 'UTF-8';
+
+/*! © 2019 imaoki | MIT License | https://github.com/imaoki */
+
+/* hljs
+   ========================================================================== */
+
+.hljs {
+  /*background: transparent;*/
+  /*display: block;*/
+  /*overflow-x: auto;*/
+  /*padding: 0.5em;*/
+}
+
+.hljs,
+.hljs-subst {
+  color: rgb(191, 191, 191);
+}
+
+.hljs-section {
+  color: rgb(191, 191, 191);
+}
+
+.hljs-comment,
+.hljs-meta,
+.hljs-quote {
+  color: rgb(95, 95, 79);
+}
+
+.hljs-bullet,
+.hljs-regexp,
+.hljs-string,
+.hljs-symbol {
+  color: rgb(191, 63, 95);
+}
+
+.hljs-addition,
+.hljs-number {
+  color: rgb(191, 191, 127);
+}
+
+.hljs-attribute,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-link,
+.hljs-literal,
+.hljs-template-variable,
+.hljs-type {
+  color: rgb(159, 127, 191);
+}
+
+.hljs-keyword,
+.hljs-name,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-selector-tag {
+  color: rgb(95, 127, 223);
+}
+
+.hljs-deletion,
+.hljs-template-tag,
+.hljs-title,
+.hljs-variable {
+  color: rgb(191, 159, 159);
+}
+
+.hljs-doctag,
+.hljs-section,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+/* diff
+   ========================================================================== */
+
+.hljs-range {
+  color: rgb(191, 127, 0);
+}
+
+.hljs-deletion {
+  color: rgb(191, 63, 95);
+}
+
+.hljs-addition {
+  color: rgb(95, 159, 63);
+}
+
+.hljs-change {
+  color: rgb(159, 127, 191);
+}
+
+/* ebnf
+   ========================================================================== */
+
+.hljs-single-quot-string {
+  color: rgb(191, 127, 159);
+}
+
+.hljs-special-sequence {
+  color: rgb(95, 159, 63);
+}
+
+.hljs-termination {
+  color: rgb(223, 223, 95);
+}
+
+/* maxscript
+   ========================================================================== */
+
+.hljs-predefined-global {
+  color: rgb(159, 127, 191);
+}
+
+.hljs-system-global {
+  color: rgb(191, 127, 0);
+}
+
+.hljs-identifier {
+}
+
+.hljs-quoted-identifier {
+  color: rgb(191, 127, 159);
+}
+
+.hljs-verbatim {
+  color: rgb(95, 159, 63);
+}
+
+.hljs-name-literal {
+}
+
+.hljs-time {
+  color: rgb(159, 191, 159);
+}
+
+.hljs-pathname {
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='x-ua-compatible' content='ie=edge'>
+<meta http-equiv='content-language' content='ja'>
+<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0'>
+<meta name='theme-color' content='#171717'>
+<title>icon</title>
+<link rel='stylesheet' href='../style/font.css'>
+<link rel='stylesheet' href='../style/normalize.css'>
+<style>
+/* reset
+   ========================================================================== */
+
+/* *
+   -------------------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  word-wrap: inherit;
+}
+
+/* element
+   ========================================================================== */
+
+/* a
+   -------------------------------------------------------------------------- */
+a:link {
+  color: rgba(191, 95, 95, 1);
+}
+a:visited {
+  color: rgba(159, 127, 95, 1);
+}
+a:hover {
+  color: rgba(255, 159, 159, 1);
+}
+a:active {
+  color: rgba(159, 95, 95, 1);
+}
+a:focus {
+  box-shadow: 0 0 0 1px rgba(255, 0, 0, 0.25);
+}
+
+/* a transition */
+a {
+  transition:
+    background-color 0.5s,
+    box-shadow 0.5s,
+    color 0.5s;
+}
+a:hover {
+  transition:
+    background-color 0.1s,
+    color 0.1s;
+}
+a:focus {
+  transition:
+    box-shadow 0.1s;
+}
+
+/* body
+   -------------------------------------------------------------------------- */
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.0625em;
+  line-height: 1.5;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+/* code
+   -------------------------------------------------------------------------- */
+code {
+  font-family: monospace;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+/* html
+   -------------------------------------------------------------------------- */
+html {
+  background-color: rgba(0, 0, 0, 0.90625);
+  color: rgba(223, 225, 223, 0.75);
+  font-size: 16px;
+  height: 100%;
+}
+
+/* table
+   -------------------------------------------------------------------------- */
+table {
+  height: 100%;
+  width: 100%;
+}
+
+tr + tr {
+  border-top: solid 1px rgba(223, 225, 223, 0.05);
+}
+
+tr + tr > * {
+  padding-top: 0.5rem;
+}
+
+th {
+  color: rgba(223, 225, 223, 0.25);
+  padding: 0 0.5rem;
+  text-align: right;
+  width: 5rem;
+}
+
+td {
+  padding: 0 0.5rem;
+}
+
+/* class
+   ========================================================================== */
+
+/* .ligature
+   -------------------------------------------------------------------------- */
+.ligature code {
+  margin-left: 0.25rem;
+}
+
+/* id
+   ========================================================================== */
+
+/* #attribution
+   -------------------------------------------------------------------------- */
+#attribution {
+  align-content: stretch;
+  align-items: stretch;
+  color: rgba(223, 225, 223, 0.5);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: 1rem 0 0 0;
+  padding: 1rem 0.5rem;
+}
+
+/* #body
+   -------------------------------------------------------------------------- */
+#body {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+}
+
+/* #footer
+   -------------------------------------------------------------------------- */
+#footer {
+  flex: 0 0 auto;
+}
+
+/* #main
+   -------------------------------------------------------------------------- */
+#main {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 0 auto;
+  justify-content: space-around;
+  padding: 0 1em 1em 0;
+}
+
+#main > div {
+  background-color: rgba(223, 225, 223, 0.0625);
+  flex: 1 1 16rem;
+  margin: 1rem 0 0 1rem;
+  padding: 0.5rem;
+}
+</style>
+</head>
+<body id='body'>
+<main id='main'>
+<!--
+改行を除去する正規表現
+検索パターン
+({|;)\n
+置換パターン
+$1
+
+テーブルに置換する正規表現
+検索パターン
+\.(icon-)([\w-]+):before {content: '([^']+)';}
+置換パターン
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='$1$2'></span><code>$2</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>$3</code></td></tr><tr><th>Class</th><td class='class'><code>$1$2</code></td></tr></table></div>
+-->
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-anchor'></span><code>anchor</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e900</code></td></tr><tr><th>Class</th><td class='class'><code>icon-anchor</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-calendar'></span><code>calendar</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e901</code></td></tr><tr><th>Class</th><td class='class'><code>icon-calendar</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-chevron-left'></span><code>chevron-left</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e902</code></td></tr><tr><th>Class</th><td class='class'><code>icon-chevron-left</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-chevron-right'></span><code>chevron-right</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e903</code></td></tr><tr><th>Class</th><td class='class'><code>icon-chevron-right</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-chevron-up'></span><code>chevron-up</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e904</code></td></tr><tr><th>Class</th><td class='class'><code>icon-chevron-up</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-circle-small'></span><code>circle-small</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\ec6b</code></td></tr><tr><th>Class</th><td class='class'><code>icon-circle-small</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-corner-down-left'></span><code>corner-down-left</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e90c</code></td></tr><tr><th>Class</th><td class='class'><code>icon-corner-down-left</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-delete'></span><code>delete</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e905</code></td></tr><tr><th>Class</th><td class='class'><code>icon-delete</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-github'></span><code>github</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e906</code></td></tr><tr><th>Class</th><td class='class'><code>icon-github</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-menu'></span><code>menu</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e907</code></td></tr><tr><th>Class</th><td class='class'><code>icon-menu</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-rotate-cw'></span><code>rotate-cw</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e908</code></td></tr><tr><th>Class</th><td class='class'><code>icon-rotate-cw</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-rss'></span><code>rss</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e909</code></td></tr><tr><th>Class</th><td class='class'><code>icon-rss</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-search'></span><code>search</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e90a</code></td></tr><tr><th>Class</th><td class='class'><code>icon-search</code></td></tr></table></div>
+<div><table><tr><th>Ligature</th><td class='ligature'><span class='icon-tag'></span><code>tag</code></td></tr><tr><th>Unicode</th><td class='unicode'><code>\e90b</code></td></tr><tr><th>Class</th><td class='class'><code>icon-tag</code></td></tr></table></div>
+</main>
+<footer id='footer'>
+<div id='attribution'>
+<p>&copy; 2015 <a href='https://imaoki.blogspot.com'>imaoki</a></p>
+</div>
+</footer>
+</body>
+</html>

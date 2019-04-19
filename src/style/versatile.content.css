@@ -1,0 +1,311 @@
+@charset 'UTF-8';
+
+/*! © 2019 imaoki | MIT License | https://github.com/imaoki */
+
+/* element
+   ========================================================================== */
+
+/* blockquote --------------------------------------------------------------- */
+
+.content > .body blockquote {
+  background-color: rgb(31, 31, 31);
+  border-left: 0.25rem solid rgb(47, 47, 47);
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.content > .body blockquote blockquote {
+  background-color: rgb(39, 39, 39);
+  border-left: 0.25rem solid rgb(55, 55, 55);
+}
+.content > .body blockquote blockquote::after,
+.content > .body blockquote blockquote::before {
+  color: rgb(55, 55, 55);
+}
+
+/* code --------------------------------------------------------------------- */
+
+.content > .body code {
+  background-color: rgb(15, 15, 15);
+  color: rgb(191, 191, 191);
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1.7;
+  padding: 0.25rem 0.5rem;
+}
+
+.content > .body pre > code {
+  background-color: transparent;
+  line-height: 1.0625;
+  padding: 0;
+}
+
+/* dl, dt, dd --------------------------------------------------------------- */
+
+.content > .body dl {
+  margin: 0.5rem 0;
+}
+
+.content > .body dt {
+  border-left: 0.5rem solid rgb(47, 47, 47);
+  padding: 0 0 0 0.5rem;
+}
+
+.content > .body dd + dt {
+  margin: 1rem 0 0 0;
+}
+
+.content > .body dd {
+  margin: 0 0 0 1rem;
+}
+
+.content > .body dd + dd {
+  border-top: 1px solid rgb(47, 47, 47);
+  margin: 1rem 0 0 1rem;
+}
+
+/* em, strong, del ---------------------------------------------------------- */
+
+.content > .body em {
+  font-style: oblique;
+}
+
+.content > .body strong {
+  font-weight: bold;
+}
+
+.content > .body del {
+  text-decoration: line-through;
+}
+
+/* h ------------------------------------------------------------------------ */
+
+.content > .body h1,
+.content > .body h2,
+.content > .body h3,
+.content > .body h4,
+.content > .body h5,
+.content > .body h6 {
+  border: 0 none transparent;
+  margin: 3rem 0 1rem 0;
+}
+
+.content > .body h1 {
+  background-color: rgba(255, 0, 63, 0.1);
+  border-left: 0.5rem solid rgba(255, 0, 63, 0.5);
+  color: rgb(191, 191, 191);
+  padding: 2rem 0 2rem 0.5rem;
+}
+.content > .body h2 {
+  background-color: rgba(255, 0, 63, 0.1);
+  border-left: 0.5rem solid rgba(255, 0, 63, 0.5);
+  color: rgb(191, 191, 191);
+  padding: 2rem 0 2rem 0.5rem;
+}
+.content > .body h3 {
+  background-color: rgba(255, 191, 63, 0.1);
+  border-left: 0.5rem solid rgba(255, 191, 63, 0.5);
+  color: rgb(191, 191, 191);
+  padding: 2rem 0 2rem 0.5rem;
+}
+.content > .body h4 {
+  background-color: rgba(159, 255, 95, 0.1);
+  border-left: 0.5rem solid rgba(159, 255, 95, 0.5);
+  color: rgb(191, 191, 191);
+  padding: 1rem 0 1rem 0.5rem;
+}
+.content > .body h5 {
+  background-color: rgba(63, 159, 255, 0.1);
+  border-left: 0.5rem solid rgba(63, 159, 255, 0.5);
+  color: rgb(191, 191, 191);
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.content > .body h6 {
+  background-color: rgba(223, 63, 223, 0.1);
+  border-left: 0.5rem solid rgba(223, 63, 223, 0.5);
+  color: rgb(191, 191, 191);
+  font-size: 1rem;
+  padding: 0 0 0 0.5rem;
+}
+
+/* hr ----------------------------------------------------------------------- */
+
+.content > .body hr {
+  border-color: rgb(55, 55, 55);
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* iframe ------------------------------------------------------------------- */
+
+.content > .body iframe {
+  border: 0 none transparent;
+  margin: 0.5rem 0;
+}
+
+/* img ---------------------------------------------------------------------- */
+
+.content > .body img {
+  margin: 0.25rem;
+}
+
+/* ol, ul, li --------------------------------------------------------------- */
+
+.content > .body ol,
+.content > .body ul {
+  margin: 0.5rem 0;
+  padding: 0 0 0 1rem;
+}
+
+.content > .body li {
+  display: block;
+  margin: 0.5rem 0;
+  position: relative;
+}
+
+.content > .body ol {
+  counter-reset: order;
+}
+
+.content > .body ol > li::before {
+  content: counter(order)'.';
+  counter-increment: order;
+  vertical-align: baseline;
+}
+
+.content > .body ul > li::before {
+  content: '\ec6b';
+  font-family: 'icon';
+  vertical-align: baseline;
+}
+
+.content > .body li::before {
+  color: rgb(63, 63, 63);
+  display: block;
+  left: -2rem;
+  position: absolute;
+  text-align: right;
+  width: 2rem;
+}
+
+/* p ------------------------------------------------------------------------ */
+
+.content > .body p {
+  margin: 0.5rem 0;
+}
+
+.content > .body p + p {
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+/* pre ---------------------------------------------------------------------- */
+
+.content > .body pre {
+  background-color: rgb(15, 15, 15);
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1.0625;
+  margin: 0.5rem 0;
+  max-height: 30rem;
+  padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+  position: relative;
+}
+.content > .body pre::before {
+  color: rgb(55, 55, 55);
+  content: attr(data-type);
+  display: block;
+  left: 0;
+  padding: 0.25rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.content > .body blockquote > pre::before {
+  color: rgb(63, 63, 63);
+}
+.content > .body blockquote blockquote > pre::before {
+  color: rgb(71, 71, 71);
+}
+
+/* table, th, tr, td -------------------------------------------------------- */
+
+.content > .body table {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.content > .body th,
+.content > .body td {
+  padding: 0 0.5rem;
+  vertical-align: baseline;
+}
+
+.content > .body th {
+  background-color: rgb(31, 31, 31);
+  border-bottom: 1px solid rgb(47, 47, 47);
+}
+
+.content > .body th + th {
+  border-left: 1px solid rgb(47, 47, 47);
+}
+
+.content > .body td + td {
+  border-left: 1px solid rgb(47, 47, 47);
+}
+
+.content > .body tr + tr > td {
+  border-top: 1px solid rgb(47, 47, 47);
+}
+
+/* class
+   ========================================================================== */
+
+/* .footnote-ref, .footnote-backref ----------------------------------------- */
+
+.content > .body .footnote-ref,
+.content > .body .footnote-backref {
+  font-size: 0.75rem;
+  line-height: 0;
+  position: relative;
+  top: -0.5rem;
+  vertical-align: baseline;
+}
+
+.content > .body .footnote-backref {
+  font-size: 0;
+}
+.content > .body .footnote-backref::before {
+  content: '\e90c';
+  font-family: 'icon';
+  font-size: 0.75rem;
+}
+
+/* .img-anchor -------------------------------------------------------------- */
+
+.content > .body a.img-anchor {
+  display: inline-block;
+  position: relative;
+}
+
+.content > .body a.img-anchor::before {
+  bottom: 0;
+  content: '';
+  display: inline-block;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.content > .body a.img-anchor:hover::before {
+  background-color: rgba(159, 223, 255, 0.2);
+  opacity: 1;
+}
+
+.content > .body a.img-anchor:hover > img {
+  opacity: 0.5;
+}

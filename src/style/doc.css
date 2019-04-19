@@ -1,0 +1,82 @@
+@charset 'UTF-8';
+
+/*! © 2019 imaoki | MIT License | https://github.com/imaoki */
+
+/* element
+   ========================================================================== */
+
+/* code --------------------------------------------------------------------- */
+
+.content > .body span code {
+  padding: 0;
+}
+
+/* dt ----------------------------------------------------------------------- */
+
+.content > .body dt[data-tag]::before {
+  color: rgb(63, 63, 63);
+  content: attr(data-tag);
+  margin-right: 0.5em;
+}
+
+/* h ------------------------------------------------------------------------ */
+
+.content > .body h2[data-keyword]::before,
+.content > .body h3[data-keyword]::before,
+.content > .body h4[data-keyword]::before,
+.content > .body h5[data-keyword]::before,
+.content > .body h6[data-keyword]::before {
+  color: rgb(95, 127, 223);
+  content: attr(data-keyword);
+  margin-right: 0.5em;
+}
+
+.content > .body h2[data-parameter]::after,
+.content > .body h3[data-parameter]::after,
+.content > .body h4[data-parameter]::after,
+.content > .body h5[data-parameter]::after,
+.content > .body h6[data-parameter]::after {
+  color: rgb(95, 95, 95);
+  content: attr(data-parameter);
+  font-size: 1em;
+  letter-spacing: 0;
+  line-height: 1.0625;
+}
+
+/* span --------------------------------------------------------------------- */
+
+.content > .body span[data-category]::before {
+  color: rgb(95, 95, 95);
+  content: attr(data-category);
+}
+
+.content > .body span[data-category]::after {
+  color: rgb(95, 95, 95);
+  content: ':';
+}
+
+/* class
+   ========================================================================== */
+
+/* .class-decl -------------------------------------------------------------- */
+
+.content > .body .class-decl + .class-decl::before {
+  color: rgb(95, 95, 95);
+  content: '|';
+}
+
+/* .class-form -------------------------------------------------------------- */
+
+.content > .body .class-form::before {
+  color: rgb(95, 95, 95);
+  content: '\003c';
+  /*margin: 0 0.25rem 0 0;*/
+}
+
+.content > .body .class-form::after {
+  color: rgb(95, 95, 95);
+  content: '\003e';
+  /*margin: 0 0 0 0.25rem;*/
+}
+
+/* .class-name -------------------------------------------------------------- */

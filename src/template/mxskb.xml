@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE html>
+<html b:version='2' expr:dir='data:blog.languageDirection' lang='ja' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+&lt;!&#45;&#45;<head>&#45;&#45;&gt;
+&lt;head&gt;
+
+<meta charset='utf-8'/>
+<meta http-equiv='x-ua-compatible' content='ie=edge'/>
+<meta http-equiv='content-language' content='ja'/>
+<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0'/>
+<meta name='author' content='© 2019 imaoki'/>
+<meta name='keywords' content='3ds Max,MAXScript,Rigging'/>
+<meta name='theme-color' content='#171717'/>
+<meta name='msapplication-tilecolor' content='#171717'/>
+<meta name='msapplication-config' content='https://imaoki.github.io/image/mxskb/browserconfig.xml'/>
+
+<meta name='google-site-verification' content='WmaLJb07i2SIDXy_9WxHJex5VZoUvTFiPGb_ioKVenU'/>
+<meta name='p:domain_verify' content='7cea2bfe5ff1d55f10f845282feeb4fd'/>
+
+<b:if cond='data:blog.metaDescription'>
+  <meta name='description' expr:content='data:blog.metaDescription'/>
+</b:if>
+
+<link rel='canonical' expr:href='data:blog.canonicalUrl'/>
+
+<link rel='icon' type='image/x-icon' expr:href='data:blog.blogspotFaviconUrl'/>
+<link rel='apple-touch-icon' sizes='180x180' href='https://imaoki.github.io/image/mxskb/apple-touch-icon.png'/>
+<link rel='icon' type='image/png' sizes='32x32' href='https://imaoki.github.io/image/mxskb/favicon-32x32.png'/>
+<link rel='icon' type='image/png' sizes='16x16' href='https://imaoki.github.io/image/mxskb/favicon-16x16.png'/>
+<link rel='manifest' href='https://imaoki.github.io/image/mxskb/site.webmanifest'/>
+<link rel='mask-icon' href='https://imaoki.github.io/image/mxskb/safari-pinned-tab.svg' color='#171717'/>
+
+<link rel='stylesheet' href='https://imaoki.github.io/style/font.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/normalize.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/blog.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/blog.content.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/toc.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/pagetop.min.css'/>
+<link rel='stylesheet' href='https://imaoki.github.io/style/highlight.min.css'/>
+
+<b:if cond='data:blog.pageType in {"item", "static_page"}'>
+  <title><data:blog.title/>.<data:blog.pageName/></title>
+<b:else/>
+  <title><data:blog.title/></title>
+</b:if>
+
+<script>
+;(function() {
+  window.blogger = window.blogger || {};
+  blogger.blog = {
+    'blogId': '<data:blog.blogId/>',
+    'bloggerUrl': '<data:blog.bloggerUrl/>',
+    'homepageUrl': '<data:blog.homepageUrl/>',
+    'title': '<data:blog.title/>'
+  };
+})();
+</script>
+
+&lt;style class='remove'&gt;&lt;!--/*<b:skin><![CDATA[*/]]></b:skin>
+&lt;style class='remove'&gt;&lt;!&#45;&#45;</head>&#45;&#45;&gt;&lt;/style&gt;
+&lt;/head&gt;
+
+<body id='body' expr:class='data:blog.pageType not in {"item", "static_page"} ? "index" : ""'>
+
+<header id='header'>
+  <div id='title'>
+    <h1><a expr:href='data:blog.homepageUrl'><data:blog.title/></a></h1>
+  </div>
+  <div id='searchbox'>
+    <form method='get' action='/search'>
+      <input type='search' name='q' id='q' size='1' expr:value='data:blog.searchQuery'/>
+      <button type='submit' class='icon-search'></button>
+      <input type='hidden' name='max-results' value='20'/>
+    </form>
+  </div>
+  <b:section id='label'>
+    <b:widget type='Label' id='Label1' locked='true' mobile='yes'>
+      <b:includable id='main'>
+        <aside>
+          <h2>ラベル</h2>
+          <ul class='inline'>
+            <b:loop var='label' index='i' values='data:labels'>
+              <li><a class='label' expr:href='data:label.url' expr:data-count='data:label.count'><data:label.name/></a></li>
+            </b:loop>
+          </ul>
+        </aside>
+      </b:includable>
+    </b:widget>
+  </b:section>
+</header>
+
+<main id='main'>
+  <b:section id='blog'>
+    <b:widget type='Blog' id='Blog1' locked='true' mobile='yes'>
+      <b:includable id='main'>
+        <section>
+          <b:include name='post-title'/>
+          <b:if cond='data:blog.pageType in {"item", "static_page"}'>
+            <b:include name='post-content'/>
+          <b:else/>
+            <b:include name='post-list'/>
+          </b:if>
+        </section>
+      </b:includable>
+
+      <b:includable id='post-title'>
+        <b:if cond='data:blog.pageType == "archive"'>
+          <h2>アーカイブ</h2>
+        <b:elseif cond='data:blog.pageType == "index"'/>
+          <b:if cond='!data:blog.searchLabel and !data:blog.searchQuery'>
+            <b:if cond='data:blog.url == data:blog.homepageUrl'>
+              <h2>一覧</h2>
+            <b:else/>
+              <h2>インデックス</h2>
+            </b:if>
+          <b:else/>
+            <b:if cond='data:blog.searchLabel'>
+              <h2><span class='query label'><data:blog.searchLabel/></span></h2>
+            <b:elseif cond='data:blog.searchQuery'/>
+              <h2><span class='query search'><data:blog.searchQuery/></span></h2>
+            </b:if>
+          </b:if>
+        <b:elseif cond='data:blog.pageType == "item"'/>
+          <h2>投稿</h2>
+        <b:elseif cond='data:blog.pageType == "static_page"'/>
+          <h2>ページ</h2>
+        <b:else/>
+          <h2>一覧</h2>
+        </b:if>
+      </b:includable>
+
+      <b:includable id='post-content'>
+        <b:loop var='post' values='data:posts'>
+<script>
+;(function() {
+  window.blogger = window.blogger || {};
+  blogger.post = {
+    'id': '<data:post.id/>',
+    'snippet': '<data:post.snippet/>',
+    <b:if cond='data:post.firstImageUrl'>
+      'thumbnailUrl': '<data:post.firstImageUrl/>',
+    </b:if>
+    'title': '<data:post.title/>',
+    'url': '<data:post.url/>'
+  };
+})();
+</script>
+          <article expr:id='"p" + data:post.id' class='content'>
+            <header class='header'>
+              <h3><a class='permalink' expr:href='data:post.url' title='Permalink'><data:post.title/></a></h3>
+              <b:include name='post-property' data='post'/>
+            </header>
+            <div class='body'>
+              <data:post.body/>
+            </div>
+            <footer class='footer'>
+              <b:include name='post-pager'/>
+            </footer>
+            <!-- <b:if cond='data:post.allowComments'>
+              <b:include name='post-comment' data='post'/>
+            </b:if> -->
+          </article>
+        </b:loop>
+      </b:includable>
+
+      <!-- <b:includable id='post-comment' var='post'>
+        <article id='comments'>
+          <h3>コメント</h3>
+          <b:if cond='data:post.numComments > 0'>
+            <ul class='comments'>
+              <b:loop var='comment' values='data:post.comments'>
+                <b:if cond='!data:comment.inReplyTo'>
+                  <li expr:id='"c" + data:comment.id'>
+                    <header class='header'>
+                      <ul class='inline'>
+                        <b:if cond='!data:comment.isDeleted'>
+                          <li><a class='permalink' expr:href='data:post.url + "#c" + data:comment.id' title='Permalink'></a></li>
+                        </b:if>
+                        <b:if cond='data:comment.authorUrl and !data:comment.isDeleted'>
+                          <li><a class='author' expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a></li>
+                        <b:else/>
+                          <li><span class='author'><data:comment.author/></span></li>
+                        </b:if>
+                        <b:if cond='!data:comment.isDeleted'>
+                          <li><span class='published'><data:comment.timestamp/></span></li>
+                          <li><a class='delete' expr:href='data:comment.deleteUrl'>削除</a></li>
+                        </b:if>
+                      </ul>
+                    </header>
+                    <div expr:class='data:comment.isDeleted ? "body deleted" : "body"'>
+                      <p><data:comment.body/></p>
+                    </div>
+                    <ul class='replies'>
+                      <b:loop var='reply' values='data:post.comments'>
+                        <b:if cond='data:reply.inReplyTo == data:comment.id'>
+                          <li expr:id='"c" + data:reply.id'>
+                            <header class='header'>
+                              <ul class='inline'>
+                                <b:if cond='!data:reply.isDeleted'>
+                                  <li><a class='permalink' expr:href='data:post.url + "#c" + data:reply.id' title='Permalink'></a></li>
+                                </b:if>
+                                <b:if cond='data:reply.authorUrl and !data:reply.isDeleted'>
+                                  <li><a class='author' expr:href='data:reply.authorUrl' rel='nofollow'><data:reply.author/></a></li>
+                                <b:else/>
+                                  <li><span class='author'><data:reply.author/></span></li>
+                                </b:if>
+                                <b:if cond='!data:reply.isDeleted'>
+                                  <li><span class='published'><data:reply.timestamp/></span></li>
+                                  <li><a class='delete' expr:href='data:reply.deleteUrl'>削除</a></li>
+                                </b:if>
+                              </ul>
+                            </header>
+                            <div expr:class='data:reply.isDeleted ? "body deleted" : "body"'>
+                              <p><data:reply.body/></p>
+                            </div>
+                          </li>
+                        </b:if>
+                      </b:loop>
+                    </ul>
+                    <b:if cond='data:post.allowNewComments and !data:comment.isDeleted'>
+                      <footer class='footer'>
+                        <ul class='inline'>
+                          <li><a class='reply' expr:href='"javascript:blogger.replyTo(&amp;quot;" + data:comment.id + "&amp;quot;);"'>返信</a></li>
+                        </ul>
+                      </footer>
+                    </b:if>
+                  </li>
+                </b:if>
+              </b:loop>
+            </ul>
+            <b:include name='comment-pager' data='post'/>
+          </b:if>
+          <b:if cond='data:post.allowNewComments'>
+            <section id='comment-form' class='comment-form js hidden'>
+              <header class='header'>
+                <h4 id='comment-form-title'>新規スレッド</h4>
+                <p class='cancel'><a href='javascript:blogger.replyTo();'>キャンセル</a></p>
+              </header>
+              <iframe id='comment-frame' name='comment-frame' src=''></iframe>
+            </section>
+          <b:else/>
+            <p>新しいコメントは書き込めません。</p>
+          </b:if>
+        </article>
+      </b:includable> -->
+
+      <b:includable id='comment-pager' var='post'>
+        <b:if cond='data:post.commentPagingRequired'>
+          <ul class='pager'>
+            <li><b:if cond='data:post.newerLinkUrl'><a class='icon-chevron-left' expr:href='data:post.newerLinkUrl' title='新しいコメント'></a></b:if></li>
+            <li><b:if cond='data:post.olderLinkUrl'><a class='icon-chevron-right' expr:href='data:post.olderLinkUrl' title='古いコメント'></a></b:if></li>
+          </ul>
+        </b:if>
+      </b:includable>
+
+      <b:includable id='post-list'>
+        <div class='panel'>
+          <b:loop var='post' values='data:posts'>
+            <a expr:href='data:post.url' expr:id='"p" + data:post.id'>
+              <section>
+                <h3><data:post.title/></h3>
+                <b:include name='post-property' data='post'/>
+              </section>
+            </a>
+          </b:loop>
+        </div>
+        <b:include name='post-pager'/>
+      </b:includable>
+
+      <b:includable id='post-property' var='post'>
+        <ul class='inline'>
+          <li><span class='published'><data:post.dateHeader/></span></li>
+          <b:if cond='data:blog.pageType in {"item", "static_page"}'>
+            <li id='updated'></li>
+<script>
+var pDate = new Date('<data:post.timestampISO8601/>');
+var pY = pDate.getFullYear();
+var pM = pDate.getMonth() + 1;
+var pD = pDate.getDate();
+var uDate = new Date('<data:post.lastUpdatedISO8601/>');
+var uY = uDate.getFullYear();
+var uM = uDate.getMonth() + 1;
+var uD = uDate.getDate();
+var updated;
+if (!(pY == uY &amp;&amp; pM == uM &amp;&amp; pD == uD)) {
+  updated = uY + '年' + uM + '月' + uD + '日';
+}
+var li = document.getElementById('updated');
+if (li) {
+  if (updated) {
+    var span = document.createElement('span');
+    span.setAttribute('class', 'updated');
+    span.innerHTML = updated;
+    li.appendChild(span);
+  }
+  else {
+    li.parentNode.removeChild(li);
+  }
+}
+</script>
+          </b:if>
+          <!-- <b:if cond='data:post.labels'>
+            <b:loop var='label' values='data:post.labels'>
+              <b:if cond='data:blog.pageType in {"item", "static_page"}'>
+                <li><a class='label' expr:href='data:label.url'><data:label.name/></a></li>
+              <b:else/>
+                <li><span class='label'><data:label.name/></span></li>
+              </b:if>
+            </b:loop>
+          </b:if> -->
+        </ul>
+      </b:includable>
+
+      <b:includable id='post-pager'>
+        <b:with var='isIndividual' value='data:blog.pageType in {"item", "static_page"}'>
+          <ul class='pager'>
+            <li><b:if cond='data:newerPageUrl'><a class='icon-chevron-left' expr:href='data:newerPageUrl' expr:title='data:isIndividual ? "新しい投稿" : "新しいページ"'></a></b:if></li>
+            <li><b:if cond='data:olderPageUrl'><a class='icon-chevron-right' expr:href='data:olderPageUrl' expr:title='data:isIndividual ? "古い投稿" : "古いページ"'></a></b:if></li>
+          </ul>
+        </b:with>
+      </b:includable>
+    </b:widget>
+  </b:section>
+</main>
+
+<footer id='footer'>
+  <b:section id='attribution'>
+    <b:widget type='Subscribe' id='Subscribe1' locked='true' mobile='yes'>
+      <b:includable id='main'>
+        <ul class='inline'>
+          <li><p>&amp;copy; 2015 <a href='https://www.blogger.com/profile/00997055684592933660'>imaoki</a></p></li>
+          <li><a class='icon-github' href='https://github.com/imaoki'></a></li>
+          <li><a class='icon-rss' expr:href='data:feeds[0].url'></a></li>
+        </ul>
+      </b:includable>
+    </b:widget>
+  </b:section>
+</footer>
+
+<div id='nav-container'>
+  <div id='nav' expr:class='data:blog.pageType not in {"item", "static_page"} ? "index" : ""'>
+    <div id='pagetop' class='js hidden'></div>
+  </div>
+</div>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://imaoki.github.io/script/jquery.cbiframesize.min.js'></script>
+<script src='https://imaoki.github.io/script/highlight.min.js'></script>
+<script src='https://imaoki.github.io/script/toc.min.js'></script>
+<script src='https://imaoki.github.io/script/blog.min.js'></script>
+
+&lt;div class='hidden remove'&gt;&lt;!&#45;&#45;</body>&#45;&#45;&gt;&lt;/div&gt;
+&lt;/body&gt;
+</html>

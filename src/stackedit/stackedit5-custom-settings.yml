@@ -1,0 +1,44 @@
+# light or dark
+colorTheme: dark
+
+# Editor settings
+editor:
+  # Automatic list numbering
+  listAutoNumber: false
+  # Display images in the editor
+  inlineImages: false
+  # Use monospaced font only
+  monospacedFontOnly: true
+
+# Default content for new files
+newFileContent: |
+  <!--
+  date: 2018-00-00 00:00:00+9
+  permalink:
+  postid:
+  status: draft
+  tags:
+  extensions:
+    markdown:
+      breaks: true
+  -->
+  snippet
+
+  <div class="hidden"><img src="https://imaoki.github.io/image/eyecatch.png" alt=""></div>
+  <div id="toc" class="js hidden"></div>
+
+  <!--more-->
+
+  body
+
+# Default properties for new files
+newFileProperties: |
+  date: 2018-00-00 00:00:00+9
+  description:
+  permalink:
+  postid:
+  status: draft
+  tags:
+  extensions:
+    markdown:
+      breaks: true

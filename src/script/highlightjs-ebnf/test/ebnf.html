@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='x-ua-compatible' content='ie=edge'>
+<meta http-equiv='content-language' content='ja'/>
+<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0'>
+<meta name='theme-color' content='#171717'/>
+<title>hljs.ebnf.js</title>
+<meta name='author' content='imaoki'>
+<meta name='generator' content='StackEdit'>
+<link rel='stylesheet' href='https://imaoki.github.io/style/font.min.css'>
+<link rel='stylesheet' href='https://imaoki.github.io/style/normalize.min.css'>
+<link rel='stylesheet' href='https://imaoki.github.io/style/versatile.min.css'>
+<link rel='stylesheet' href='https://imaoki.github.io/style/versatile.content.min.css'>
+<link rel='stylesheet' href='https://imaoki.github.io/style/toc.min.css'>
+<link rel='stylesheet' href='https://imaoki.github.io/style/pagetop.min.css'>
+<!--link rel='stylesheet' href='https://imaoki.github.io/style/highlight.min.css'-->
+<link rel='stylesheet' href='../../../style/highlight.css'>
+</head>
+<body id='body'>
+<header id='header'>
+<h1><a href=''>hljs.ebnf.js</a></h1>
+</header>
+<main id='main'>
+<section>
+<article class='content'>
+<div class='body'>
+<div id='toc' class='js hidden'></div>
+<h2>sample.ebnf</h2>
+<pre class="prettyprint"><code class="language-ebnf">             (* a simple program in EBNF − Wikipedia *)
+             program = 'PROGRAM' , white space , identifier , white space ,
+                       'BEGIN' , white space ,
+                       { assignment , ";" , white space } ,
+                       'END.' ;
+
+          identifier = alphabetic character , [ { alphabetic character | digit } ] ;
+
+              number = [ "-" ] , digit , [ { digit } ] ;
+
+              string = '"' , { all characters - '"' } , '"' ;
+
+          assignment = identifier , ":=" , ( number | identifier | string ) ;
+
+alphabetic character = "A" | "B" | "C" | "D" | "E" | "F" | "G"
+                     | "H" | "I" | "J" | "K" | "L" | "M" | "N"
+                     | "O" | "P" | "Q" | "R" | "S" | "T" | "U"
+                     | "V" | "W" | "X" | "Y" | "Z" ;
+
+               digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
+
+         white space = ? white space characters ? ;
+
+      all characters = ? all visible characters ? ;</code></pre>
+</div>
+</article>
+</section>
+</main>
+<footer id='footer'>
+<div id='attribution'>
+<p>&copy; 2015 <a href='https://imaoki.blogspot.jp'>imaoki</a></p>
+</div>
+</footer>
+<div id='nav-container'>
+<div id='nav'>
+<div id='pagetop' class='js hidden'></div>
+</div>
+</div>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://imaoki.github.io/script/jquery.cbiframesize.min.js'></script>
+<!--script src='https://imaoki.github.io/script/highlight.min.js'></script-->
+<script src='../src/highlight.ebnf.js'></script>
+<script src='https://imaoki.github.io/script/toc.min.js'></script>
+<script src='https://imaoki.github.io/script/versatile.min.js'></script>
+</body>
+</html>

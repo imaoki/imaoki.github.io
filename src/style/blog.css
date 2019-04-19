@@ -1,0 +1,775 @@
+@charset 'UTF-8';
+
+/*! © 2019 imaoki | MIT License | https://github.com/imaoki */
+
+/* font
+   ========================================================================== */
+
+/* body --------------------------------------------------------------------- */
+
+body {
+  font-family: sans-serif;
+}
+
+/* code --------------------------------------------------------------------- */
+
+code {
+  font-family: monospace;
+}
+
+/* pre ---------------------------------------------------------------------- */
+
+pre {
+  font-family: monospace;
+}
+
+pre::before {
+  font-family: sans-serif;
+}
+
+/* reset
+   ========================================================================== */
+
+* {
+  background-clip: padding-box;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  word-wrap: inherit;
+}
+
+*:focus {
+  outline: transparent none 0;
+}
+
+/* scrollbar
+   ========================================================================== */
+
+::-webkit-resizer {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  height: 1rem;
+  width: 1rem;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(31, 31, 31);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+/* element
+   ========================================================================== */
+
+/* a ------------------------------------------------------------------------ */
+
+a:link {
+  color: rgb(95, 127, 223);
+}
+a:visited {
+  color: rgb(159, 127, 159);
+}
+a:hover {
+  color: rgb(159, 223, 255);
+}
+a:active {
+  color: rgb(127, 159, 191);
+}
+a:focus {
+  box-shadow: 0 0 0 1px rgb(63, 0, 0);
+}
+
+/* body --------------------------------------------------------------------- */
+
+body {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.125em;
+  line-height: 1.7;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+/* h ------------------------------------------------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+}
+
+h2 {
+  color: rgb(63, 63, 63);
+}
+
+/* html --------------------------------------------------------------------- */
+
+html {
+  background-color: rgb(23, 23, 23);
+  color: rgb(191, 191, 191);
+  font-size: 16px;
+  height: 100%;
+}
+
+/* img ---------------------------------------------------------------------- */
+
+img {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* attribute
+   ========================================================================== */
+
+/* [class] ------------------------------------------------------------------ */
+
+[class^='icon-'],
+[class*=' icon-'] {
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+/* [data-count] ------------------------------------------------------------- */
+
+/* [data-count]::after {
+  content: attr(data-count);
+  font-size: 0.5rem;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0.5rem;
+  width: 1.5rem;
+} */
+
+/* class
+   ========================================================================== */
+
+/* .comments ---------------------------------------------------------------- */
+
+.comments {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.comments > li {
+  background-color: rgb(31, 31, 31);
+  display: block;
+  flex: 1 1 auto;
+  margin: 0 0 0.5rem 0;
+  padding: 0.5rem;
+}
+
+/* .body */
+
+.comments .body {
+  margin: 0.5rem 0 0 0;
+}
+
+/* .deleted */
+
+.comments .deleted {
+  color: rgb(7, 7, 7);
+}
+
+/* p */
+
+/* .comments .body p {
+} */
+
+/* em, i, b, strong */
+
+.comments .body em,
+.comments .body i {
+  font-style: oblique;
+}
+
+.comments .body b,
+.comments .body strong {
+  font-weight: bold;
+}
+
+/* .footer */
+
+.comments .footer {
+  padding: 0 0 0 2rem;
+}
+
+.comments .footer .inline > li {
+  flex: 0 1 8rem;
+  text-align: center;
+}
+
+.comments .footer > #comment-form + .inline {
+  display: none;
+}
+
+/* .header */
+
+.comments > li > .header > .inline > li:nth-last-child(2) {
+  flex: 1 1 auto;
+}
+
+/* .content ----------------------------------------------------------------- */
+
+.content {
+  display: block;
+}
+
+.content > .header {
+  align-items: baseline;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.content > .body {
+  padding: 0 2rem 0 0.5rem;
+}
+
+/* .header ------------------------------------------------------------------ */
+
+.header h3 {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+.header h3 a {
+  color: rgb(191, 191, 191);
+}
+.header h3 a:hover {
+  color: rgb(223, 223, 223);
+}
+
+.header .inline {
+  color: rgb(95, 95, 95);
+  flex: 0 1 auto;
+}
+
+/* .hidden ------------------------------------------------------------------ */
+
+.hidden {
+  display: none;
+}
+
+/* .inline ------------------------------------------------------------------ */
+
+.inline {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.inline > li {
+  display: block;
+  flex: 0 1 auto;
+  margin: 0 0.5rem 0.5rem 0;
+}
+.inline > li:last-child {
+  margin: 0;
+}
+
+.inline > li > a {
+  display: block;
+}
+
+.inline > li > .label::before,
+.inline > li > .permalink::before,
+.inline > li > .published::before,
+.inline > li > .updated::before {
+  font-family: 'icon';
+  line-height: 1;
+  margin: 0 0.125rem 0 0;
+}
+
+.inline > li > .label::before {content: '\e90b';}
+.inline > li > .permalink::before {content: '\e900';}
+.inline > li > .published::before {content: '\e901';}
+.inline > li > .updated::before {content: '\e908';}
+
+.inline > li > .label::before {vertical-align: sub;}
+.inline > li > .permalink::before {vertical-align: baseline;}
+.inline > li > .published::before {vertical-align: -0.0625rem;}
+.inline > li > .updated::before {vertical-align: -0.0625rem;}
+
+.inline > li > .delete {
+  background-color: transparent;
+  color: rgb(55, 55, 55);
+  padding: 0 0.25rem;
+}
+.inline > li > .delete:hover {
+  background-color: rgb(47, 47, 47);
+  color: rgb(159, 159, 159);
+}
+
+.inline > li > .reply {
+  background-color: rgb(39, 39, 39);
+  color: rgb(95, 95, 95);
+  padding: 0;
+}
+.inline > li > .reply:hover {
+  background-color: rgb(47, 47, 47);
+  color: rgb(191, 191, 191);
+}
+
+/* .label ------------------------------------------------------------------- */
+
+.label {
+  font-size: 0.75rem;
+  padding: 0.125rem 0.25rem;
+}
+.label::before {
+  font-size: 1rem;
+}
+
+a.label {
+  background-color: rgb(39, 39, 39);
+}
+a.label:hover {
+  background-color: rgb(47, 47, 47);
+}
+
+/* .pager ------------------------------------------------------------------- */
+
+.pager {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 1rem 0;
+}
+
+.pager > li {
+  display: block;
+  flex: 1 1 50%;
+  font-family: 'icon';
+  margin: 0 0.5rem 0 0;
+  text-align: center;
+}
+.pager > li:last-child {
+  margin: 0;
+}
+
+.pager li a {
+  background-color: rgb(31, 31, 31);
+  color: rgb(95, 95, 95);
+  display: block;
+  padding: 1rem 0;
+}
+.pager li a:hover {
+  background-color: rgb(47, 47, 47);
+  color: rgb(191, 191, 191);
+}
+
+/* .panel ------------------------------------------------------------------- */
+
+.panel {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.panel > a {
+  background-color: rgb(31, 31, 31);
+  display: block;
+  flex: 1 1 auto;
+  margin: 0 0 0.25rem 0;
+}
+.panel > a:hover {
+  background-color: rgb(39, 39, 39);
+}
+.panel > a:last-child {
+  margin: 0;
+}
+
+.panel > a > section {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  padding: 0.25rem 0.5rem;
+}
+
+.panel > a h3 {
+  color: rgb(159, 159, 159);
+  flex: 0 1 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.panel > a:hover h3 {
+  color: rgb(223, 223, 223);
+}
+
+.panel > a ul {
+  margin: 0;
+}
+.panel > a ul:first-of-type {
+  margin: 0 0.5rem 0 0;
+}
+
+.panel > a li {
+  color: rgb(63, 63, 63);
+}
+.panel > a:hover li {
+  color: rgb(127, 127, 127);
+}
+
+/* .published --------------------------------------------------------------- */
+
+.published {
+  font-size: 0.75rem;
+  padding: 0.125rem 0;
+}
+.published::before {
+  font-size: 1rem;
+}
+
+/* .query ------------------------------------------------------------------- */
+
+.query {
+  background-color: rgb(23, 23, 23);
+  color: rgb(63, 63, 63);
+  font-size: 1rem;
+  margin: 0 0.125rem;
+  padding: 0 0.125rem;
+}
+.query:first-child {
+  margin-left: 0;
+}
+.query::before {
+  font-family: 'icon';
+  margin: 0 0.125rem;
+}
+
+.query.label::before {content: '\e90b';}
+.query.search::before {content: '\e90a';}
+
+.query.label::before {vertical-align: middle;}
+.query.search::before {vertical-align: baseline;}
+
+/* .replies ----------------------------------------------------------------- */
+
+.replies {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0.5rem 0;
+  padding: 0 0 0 2rem;
+}
+
+.replies > li {
+  border-top: solid 1px rgb(47, 47, 47);
+  display: block;
+  flex: 1 1 auto;
+  margin: 0 0 0.25rem 0;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.replies > li:last-child {
+  margin: 0;
+}
+
+/* .header */
+
+.replies > li > .header > .inline > li:nth-last-child(2) {
+  flex: 1 1 auto;
+}
+
+/* .updated ----------------------------------------------------------------- */
+
+.updated {
+  font-size: 0.75rem;
+  padding: 0.125rem 0;
+}
+.updated::before {
+  font-size: 1rem;
+}
+
+/* id
+   ========================================================================== */
+
+/* #attribution ------------------------------------------------------------- */
+
+#attribution {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 0 1 auto;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+#attribution p {
+  color: rgb(127, 127, 127);
+}
+
+#attribution .inline {
+  margin: 0;
+}
+
+#attribution .inline > li > a {
+  display: block;
+  padding: 0.25rem;
+}
+
+a.icon-github {
+  background-color: transparent;
+  color: rgb(245, 245, 245);
+}
+a.icon-github:hover {
+  background-color: rgb(245, 245, 245);
+  color: rgb(64, 120, 192);
+}
+
+a.icon-rss {
+  background-color: transparent;
+  color: rgb(242, 101, 34);
+}
+a.icon-rss:hover {
+  background-color: rgb(242, 101, 34);
+  color: rgb(255, 255, 255);
+}
+
+/* #blogarchive ------------------------------------------------------------- */
+
+#blogarchive {
+  margin: 1rem 0 0 0;
+}
+
+/* #body -------------------------------------------------------------------- */
+
+#body {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 50rem;
+}
+
+/* #comment-form ------------------------------------------------------------ */
+
+#comment-form {
+  margin: 0 0 0.5rem 0;
+}
+
+#comment-form > .header {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#comment-form > .header > h4 {
+  flex: 0 1 auto;
+  padding: 0;
+}
+
+#comments > #comment-form > .header > h4 {
+  display: block;
+}
+
+.footer > #comment-form > .header > h4 {
+  display: none;
+}
+
+#comment-form > .header > .cancel {
+  flex: 0 1 8rem;
+  text-align: center;
+}
+
+#comments > #comment-form > .header > .cancel {
+  display: none;
+}
+
+.footer > #comment-form > .header > .cancel {
+  display: block;
+}
+
+#comment-form > .header > .cancel > a {
+  background-color: rgb(39, 39, 39);
+  color: rgb(95, 95, 95);
+  display: block;
+}
+#comment-form > .header > .cancel > a:hover {
+  background-color: rgb(47, 47, 47);
+  color: rgb(191, 191, 191);
+}
+
+/* #comment-frame ----------------------------------------------------------- */
+
+#comment-frame {
+  background-color: rgb(39, 39, 39);
+  border: 0 none transparent;
+  display: block;
+  height: 16rem;
+  margin: 0.125rem 0 0 0;
+  width: 100%;
+}
+
+/* #comments ---------------------------------------------------------------- */
+
+#comments {
+  margin: 3rem 0 0.5rem 0;
+}
+
+#comments > h3 {
+  color: rgb(63, 63, 63);
+}
+
+/* #footer ------------------------------------------------------------------ */
+
+#footer {
+  flex: 0 0 auto;
+}
+
+/* #header ------------------------------------------------------------------ */
+
+#header {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 0 0 auto;
+}
+
+/* #label ------------------------------------------------------------------- */
+
+#label {
+  margin: 1rem 0 0 0;
+}
+
+/* #main -------------------------------------------------------------------- */
+
+#main {
+  flex: 1 0 auto;
+  margin: 1rem 0 0 0;
+}
+
+/* #nav --------------------------------------------------------------------- */
+
+#nav {
+  flex: 0 1 50rem;
+  position: relative;
+  visibility: hidden;
+}
+
+#nav.index {
+  flex: 0 1 100rem;
+}
+
+/* #nav-container ----------------------------------------------------------- */
+
+#nav-container {
+  bottom: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+}
+
+/* #searchbox --------------------------------------------------------------- */
+
+#searchbox {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 0 1 auto;
+  justify-content: center;
+  padding: 0;
+}
+
+#searchbox > form {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  flex: 0 1 15rem;
+}
+
+#searchbox > form > input[type='search'] {
+  background-color: rgb(31, 31, 31);
+  border: 0 none transparent;
+  color: rgb(95, 95, 95);
+  flex: 1 1 auto;
+  outline: transparent none 0;
+  padding: 0.25rem;
+}
+#searchbox > form > input[type='search']:hover {
+  background-color: rgb(47, 47, 47);
+  color: rgb(191, 191, 191);
+}
+#searchbox > form > input[type='search']:focus {
+  background-color: rgb(159, 159, 159);
+  color: rgb(0, 0, 0);
+}
+
+#searchbox > form > button {
+  background-color: rgb(31, 31, 31);
+  border: 0 none transparent;
+  color: rgb(95, 95, 95);
+  flex: 0 0 auto;
+  line-height: 1;
+  outline: transparent none 0;
+  padding: 0.25rem 0.5rem;
+}
+#searchbox > form > button:hover {
+  background-color: rgb(47, 47, 47);
+  color: rgb(191, 191, 191);
+}
+
+/* #title ------------------------------------------------------------------- */
+
+#title {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 0 1 auto;
+  margin: 0.5rem 0 0 0;
+  text-align: center;
+}
+
+#title > h1 {
+  flex: 0 1 auto;
+  font-size: 1.5rem;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+#title > h1 > a {
+  color: rgb(159, 159, 159);
+}
+#title > h1 > a:hover {
+  color: rgb(223, 223, 223);
+}
+
+#title > p {
+  color: rgb(127, 127, 127);
+  flex: 1 1 auto;
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
