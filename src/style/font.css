@@ -7,9 +7,9 @@
   font-style: normal;
   font-weight: normal;
   src:
-    url('../font/icon.ttf?4i3sx') format('truetype'),
-    url('../font/icon.woff?4i3sx') format('woff'),
-    url('../font/icon.svg?4i3sx#icon') format('svg');
+    url('font/icon.ttf?4i3sx') format('truetype'),
+    url('font/icon.woff?4i3sx') format('woff'),
+    url('font/icon.svg?4i3sx#icon') format('svg');
 }
 
 [class^='icon-'], [class*=' icon-'] {

@@ -12,8 +12,8 @@
 <meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0'/>
 <meta name='theme-color' content='#171717'/>
 
-<meta name='google-site-verification' content='AycfcvShAZeWDM68c1nffZm_qwtj7F87U2DP5RjSi94'/>
-<meta name='p:domain_verify' content='ca284fb0fca82090fdb7aac74012f63b'/>
+<!-- <meta name='google-site-verification' content='AycfcvShAZeWDM68c1nffZm_qwtj7F87U2DP5RjSi94'/> -->
+<!-- <meta name='p:domain_verify' content='ca284fb0fca82090fdb7aac74012f63b'/> -->
 
 <b:if cond='data:blog.pageType in {"item", "static_page"}'>
   <title><data:blog.pageName/>@<data:blog.title/></title>
