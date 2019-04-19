@@ -773,3 +773,23 @@ a.icon-rss:hover {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* #information ------------------------------------------------------------- */
+
+#information {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 0 1 auto;
+  margin: 0.5rem 0;
+  /* padding: 0.5rem; */
+  font-size: 0.75rem;
+}
+
+#information dt {
+  border-left: 0.5rem solid rgb(47, 47, 47);
+  padding: 0 0 0 0.5rem;
+}
+
+#information dd {
+  margin: 0 0 0 1rem;
+}

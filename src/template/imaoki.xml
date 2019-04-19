@@ -65,7 +65,7 @@
       <input type='hidden' name='max-results' value='20'/>
     </form>
   </div>
-  <b:section id='label'>
+  <!-- <b:section id='label'>
     <b:widget type='Label' id='Label1' locked='true' mobile='yes'>
       <b:includable id='main'>
         <aside>
@@ -78,7 +78,13 @@
         </aside>
       </b:includable>
     </b:widget>
-  </b:section>
+  </b:section> -->
+  <section id='information'>
+    <dl>
+      <dt>お知らせ</dt>
+      <dd><p>MAXScript関係は<a href='https://imaoki.github.io/mxskb/'>https://imaoki.github.io/mxskb/</a>に移行しました。</p></dd>
+    </dl>
+  </section>
 </header>
 
 <main id='main'>
